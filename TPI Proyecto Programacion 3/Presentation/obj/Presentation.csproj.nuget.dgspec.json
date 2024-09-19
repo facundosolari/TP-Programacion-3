@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
+        "projectPath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\facus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\obj\\",
+        "outputPath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facus\\AppData\\Roaming\\NuGet\\NuGet.Config",

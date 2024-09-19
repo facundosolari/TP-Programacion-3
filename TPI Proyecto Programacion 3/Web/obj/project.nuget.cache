@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kd6veZfwHB0=",
+  "dgSpecHash": "fDF6J5n7OaM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\facus\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\facus\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
