@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Admin : Usuario
+    public class Admin : User
     {
-        public bool Permisos { get; set; } = true;
+        private bool _isAdmin { get; set; } = true; // ?
     }
 }

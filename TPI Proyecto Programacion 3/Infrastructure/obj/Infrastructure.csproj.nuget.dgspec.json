@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\facus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Infrastructure\\obj\\",
+        "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+        "outputPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\facus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

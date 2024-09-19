@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public abstract class Usuario
+    public abstract class User
     {
         public string Username { get; set; }
         public string Password { get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public string Name { get; set; }
+        public string Lastname { get; set; }
         public string Email { get; set; }
-        public bool Permisos { get; set; } = false;
+        public bool Permitions { get; set; } = false;
     }
 }

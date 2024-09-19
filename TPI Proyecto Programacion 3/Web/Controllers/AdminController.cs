@@ -12,9 +12,9 @@ namespace Web.Controllers
         {
         return Ok(new List<Admin>
         {
-            new Admin { Username = "Admin", Password ="Admin123", Nombre = "Nombre Del Admin", Apellido ="Apellido Del Admin", Email ="mail@deladmin.com" },
-            new Admin { Username = "Admin", Password ="Admin123", Nombre = "Nombre Del Admin", Apellido ="Apellido Del Admin", Email ="mail@deladmin.com" },
-            new Admin { Username = "Admin", Password ="Admin123", Nombre = "Nombre Del Admin", Apellido ="Apellido Del Admin", Email ="mail@deladmin.com" },
+            new Admin { Username = "Admin", Password ="Admin123", Name = "Nombre Del Admin", Lastname ="Apellido Del Admin", Email ="mail@deladmin.com" },
+            new Admin { Username = "Admin", Password ="Admin123", Name = "Nombre Del Admin", Lastname ="Apellido Del Admin", Email ="mail@deladmin.com" },
+            new Admin { Username = "Admin", Password ="Admin123", Name = "Nombre Del Admin", Lastname ="Apellido Del Admin", Email ="mail@deladmin.com" },
         }
             );
         }

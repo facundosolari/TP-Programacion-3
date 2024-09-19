@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {}
+    "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {
+    "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\facus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facus\\source\\repos\\Proyecto Git\\TPI Proyecto Programacion 3\\Domain\\obj\\",
+        "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+        "outputPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\facus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

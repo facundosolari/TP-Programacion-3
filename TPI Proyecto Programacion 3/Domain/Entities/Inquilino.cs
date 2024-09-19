@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Inquilino : Usuario
+    public class Inquilino : User
     {
-        public string? Foto { get; set; }
-        public string Direccion { get; set; }
-        public string Localidad { get; set; }
-        public string TipoVivienda { get; set; }
+        public string? Picture { get; set; }
+        public string Adress { get; set; }
+        public string TypeBuilding { get; set; }
     }
 }

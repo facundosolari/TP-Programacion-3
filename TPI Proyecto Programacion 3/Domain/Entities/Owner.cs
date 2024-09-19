@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Propietario : Usuario
+    public class Owner : User
     {
-        public List<Inmueble> Propiedades {  get; set; } = new List<Inmueble>();
-        public string? Foto { get; set; }
+        public List<Inmueble> Property {  get; set; } = new List<Inmueble>();
+        public string? Photo { get; set; }
         public int? Rating {  get; set; }  
     }
 }

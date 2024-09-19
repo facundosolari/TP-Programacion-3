@@ -6,20 +6,19 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Inmueble
+    public class Building
     {
-        private string Ubicacion {  get; set; }
-        private string Tipo { get; set; }
-        public string Localidad { get; set; }
-        private int ID { get; set; }
-        public string Direccion { get; set; }
-        public int Baños { get; set; }
-        public int Ambientes { get; set; }
+        public string Ubication {  get; set; }
+        public string Type { get; set; }
+        private int Id { get; set; }
+        public string Adress { get; set; }
+        public int Bathrooms { get; set; }
+        public int Rooms { get; set; }
         public bool Garage { get; set; }
-        public bool Patio {  get; set; }
-        public List<string>? Fotos {  get; set; } = new List<string>();
-        public string? Descripcion {  get; set; }
+        public bool BackYard {  get; set; }
+        public List<string>? Pictures {  get; set; } = new List<string>();
+        public string? Description {  get; set; }
         public int? Rating { get; set; }
-        public bool Habilitacion { get; set; } = false;
+        private bool isAuthorized { get; set; } = false;
     }
 }
