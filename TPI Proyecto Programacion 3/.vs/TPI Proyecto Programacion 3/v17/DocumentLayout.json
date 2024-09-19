@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\facus\\source\\repos\\tpi proyecto programacion 3\\domain\\entities\\propietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\propietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\facus\\source\\repos\\tpi proyecto programacion 3\\web\\controllers\\propietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\propietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\facus\\source\\repos\\tpi proyecto programacion 3\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\facus\\source\\repos\\tpi proyecto programacion 3\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\users\\facus\\source\\repos\\tpi proyecto programacion 3\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8A9A429-E57D-4008-8E42-E03D1A5F7E96}|Presentation\\Presentation.csproj|c:\\users\\facus\\source\\repos\\tpi proyecto programacion 3\\presentation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8A9A429-E57D-4008-8E42-E03D1A5F7E96}|Presentation\\Presentation.csproj|solutionrelative:presentation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.csproj",
+              "DocumentMoniker": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
+              "RelativeDocumentMoniker": "Web\\Web.csproj",
+              "ToolTip": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
+              "RelativeToolTip": "Web\\Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T01:12:24.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropietarioController.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Web\\Controllers\\PropietarioController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PropietarioController.cs",
+              "ToolTip": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Web\\Controllers\\PropietarioController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PropietarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:06:54.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Propietario.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Domain\\Entities\\Propietario.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Propietario.cs",
+              "ToolTip": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Domain\\Entities\\Propietario.cs",
+              "RelativeToolTip": "Domain\\Entities\\Propietario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:04:47.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T01:03:45.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Infrastructure\\Class1.cs",
+              "RelativeToolTip": "Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T00:46:01.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\Class1.cs",
+              "RelativeDocumentMoniker": "Presentation\\Class1.cs",
+              "ToolTip": "C:\\Users\\facus\\source\\repos\\TPI Proyecto Programacion 3\\Presentation\\Class1.cs",
+              "RelativeToolTip": "Presentation\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T00:45:47.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
