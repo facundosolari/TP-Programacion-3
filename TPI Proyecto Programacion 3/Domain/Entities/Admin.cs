@@ -8,6 +8,6 @@ namespace Domain.Entities
 {
     public class Admin : Usuario
     {
-        public bool Permisos {  get; set; }  
+        public bool Permisos { get; set; } = true;
     }
 }

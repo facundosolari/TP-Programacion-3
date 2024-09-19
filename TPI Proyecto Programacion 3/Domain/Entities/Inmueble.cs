@@ -17,10 +17,9 @@ namespace Domain.Entities
         public int Ambientes { get; set; }
         public bool Garage { get; set; }
         public bool Patio {  get; set; }
-        public List<string> Fotos {  get; set; }
-        public string Descripcion {  get; set; }
-        public int Rating { get; set; }
-        public bool Habilitacion { get; set; }
-        
+        public List<string>? Fotos {  get; set; } = new List<string>();
+        public string? Descripcion {  get; set; }
+        public int? Rating { get; set; }
+        public bool Habilitacion { get; set; } = false;
     }
 }

@@ -8,9 +8,8 @@ namespace Domain.Entities
 {
     public class Propietario : Usuario
     {
-        public List<Inmueble> Propiedades {  get; set; }
-        public string Foto { get; set; }
-        public int Rating {  get; set; }
-        
+        public List<Inmueble> Propiedades {  get; set; } = new List<Inmueble>();
+        public string? Foto { get; set; }
+        public int? Rating {  get; set; }  
     }
 }
