@@ -8,7 +8,7 @@ namespace Domain.Entities
 {
     public class Owner : User
     {
-        public List<Inmueble> Property {  get; set; } = new List<Inmueble>();
+        public List<Building> Property {  get; set; } = new List<Building>();
         public string? Photo { get; set; }
         public int? Rating {  get; set; }  
     }

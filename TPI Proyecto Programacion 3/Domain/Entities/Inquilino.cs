@@ -9,7 +9,7 @@ namespace Domain.Entities
     public class Inquilino : User
     {
         public string? Picture { get; set; }
-        public string Adress { get; set; }
-        public string TypeBuilding { get; set; }
+        public string? Adress { get; set; }
+        public string? TypeBuilding { get; set; }
     }
 }

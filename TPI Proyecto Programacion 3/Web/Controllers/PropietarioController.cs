@@ -11,12 +11,12 @@ namespace Web.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new List<Propietario>
+            return Ok(new List<Owner>
             {
-                new Propietario { Username = "MrSolari10", Password = "MrSolari123", Nombre = "Facundo", Apellido ="Solari", Email ="facusolari9@gmail.com", Rating = 5 },
-                new Propietario { },
-                new Propietario {},
-                new Propietario { }        
+                new Owner { Username = "MrSolari10", Password = "MrSolari123", Name = "Facundo", Lastname ="Solari", Email ="facusolari9@gmail.com", Rating = 5 },
+                new Owner { },
+                new Owner {},
+                new Owner { }        
              });
         }
     }

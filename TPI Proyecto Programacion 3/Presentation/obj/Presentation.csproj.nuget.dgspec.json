@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
