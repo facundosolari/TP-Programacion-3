@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\inmueble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\inmueble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\inquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\inquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\inmueblecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\inmueblecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Inquilino.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inquilino.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Inquilino.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inquilino.cs",
+              "RelativeToolTip": "Domain\\Entities\\Inquilino.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:53:12.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Admin.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Admin.cs",
               "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Admin.cs",
               "RelativeToolTip": "Domain\\Entities\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T21:14:47.5Z",
+              "WhenOpened": "2024-09-19T22:31:02.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:11:44.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InmuebleController.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\InmuebleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\InmuebleController.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\InmuebleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\InmuebleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:11:38.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inmueble.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inmueble.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Inmueble.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inmueble.cs",
+              "RelativeToolTip": "Domain\\Entities\\Inmueble.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:09:07.946Z",
               "EditorCaption": ""
             }
           ]

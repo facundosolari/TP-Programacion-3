@@ -1,13 +1,27 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Entities;
+using Application.Services;
 
 namespace Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PropietarioController : ControllerBase
+    public class OwnerController : ControllerBase
     {
+        // inyeccion de dependencia 
+        private readonly OwnerService _ownerService;
+
+        public OwnerController(OwnerService ownerService)
+        {
+            _ownerService = ownerService;
+        }
+        // es para no instanciar directamente el objeto aca abajo
+        public IActionResult GetOwner()
+        {
+            return Ok(_ownerService.GetOwnerService());
+        }
+
         [HttpGet]
         public IActionResult Get()
         {
