@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
 
-namespace Domain.Interfaces
+namespace Contract.OwnerModels.Response
 {
-    public interface IOwner
+    public class OwnerResponse
     {
-        void Create(Owner entity);
+        public string? Photo { get; set; }
+        public int? Rating { get; set; }
     }
 }

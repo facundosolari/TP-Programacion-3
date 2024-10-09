@@ -1,30 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
+  "WorkspaceRootPath": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\application\\interfaces\\ibuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\ownerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\interfaces\\iowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\buildingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\buildingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\buildingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\buildingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\inquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\inquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\contract\\mappings\\buildingsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|solutionrelative:contract\\mappings\\buildingsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\contract\\buildingmodels\\response\\buildingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|solutionrelative:contract\\buildingmodels\\response\\buildingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|c:\\users\\facus\\onedrive\\escritorio\\facultad\\programacion 3\\tp\\tp-programacion-3\\tpi proyecto programacion 3\\contract\\buildingmodels\\request\\buildingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|solutionrelative:contract\\buildingmodels\\request\\buildingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OwnerService.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\OwnerService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\OwnerService.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\OwnerService.cs",
-              "RelativeToolTip": "Application\\Services\\OwnerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:51:22.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OwnerController.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\OwnerController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\OwnerController.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\OwnerController.cs",
-              "RelativeToolTip": "Web\\Controllers\\OwnerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
+              "Title": "IBuilding.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IBuilding.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBuilding.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IBuilding.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBuilding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:38:58.228Z",
+              "WhenOpened": "2024-10-09T22:23:16.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IOwner.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IOwner.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IOwner.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IOwner.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IOwner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:29:09.38Z",
+              "WhenOpened": "2024-10-09T22:18:07.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BuildingResponse.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\BuildingModels\\Response\\BuildingResponse.cs",
+              "RelativeDocumentMoniker": "Contract\\BuildingModels\\Response\\BuildingResponse.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\BuildingModels\\Response\\BuildingResponse.cs",
+              "RelativeToolTip": "Contract\\BuildingModels\\Response\\BuildingResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:11:27.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Inquilino.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inquilino.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Inquilino.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inquilino.cs",
-              "RelativeToolTip": "Domain\\Entities\\Inquilino.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "BuildingsProfile.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Mappings\\BuildingsProfile.cs",
+              "RelativeDocumentMoniker": "Contract\\Mappings\\BuildingsProfile.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Mappings\\BuildingsProfile.cs",
+              "RelativeToolTip": "Contract\\Mappings\\BuildingsProfile.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwBEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T22:53:12.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Admin.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Admin.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Admin.cs",
-              "RelativeToolTip": "Domain\\Entities\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T22:31:02.24Z",
+              "WhenOpened": "2024-10-09T22:12:14.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Web\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACaAAAAAAAAAA==",
+              "Title": "BuildingController.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\BuildingController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\BuildingController.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\BuildingController.cs",
+              "RelativeToolTip": "Web\\Controllers\\BuildingController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAnwCcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T22:11:44.989Z",
+              "WhenOpened": "2024-10-09T22:07:55.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BuildingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\BuildingModels\\Request\\BuildingRequest.cs",
+              "RelativeDocumentMoniker": "Contract\\BuildingModels\\Request\\BuildingRequest.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\BuildingModels\\Request\\BuildingRequest.cs",
+              "RelativeToolTip": "Contract\\BuildingModels\\Request\\BuildingRequest.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAEwBAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:00:57.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuildingService.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\BuildingService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\BuildingService.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\BuildingService.cs",
+              "RelativeToolTip": "Application\\Services\\BuildingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:47:01.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Building.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Building.cs",
+              "ToolTip": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Building.cs",
+              "RelativeToolTip": "Domain\\Entities\\Building.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAEwA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:13:32.174Z",
               "EditorCaption": ""
             }
           ]

@@ -17,21 +17,21 @@ namespace Web.Controllers
             _ownerService = ownerService;
         }
         // es para no instanciar directamente el objeto aca abajo
-        public IActionResult GetOwner()
-        {
-            return Ok(_ownerService.GetOwnerService());
-        }
+      //  public IActionResult GetOwner()
+      //  {
+      //      return Ok(_ownerService.GetOwnerService());
+      //  }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
-            return Ok(new List<Owner>
-            {
-                new Owner { Username = "MrSolari10", Password = "MrSolari123", Name = "Facundo", Lastname ="Solari", Email ="facusolari9@gmail.com", Rating = 5 },
-                new Owner { },
-                new Owner {},
-                new Owner { }        
-             });
-        }
+      //  [HttpGet]
+      //  public IActionResult Get()
+      //  {
+      //      return Ok(new List<Owner>
+      //      {
+      //          new Owner { Username = "MrSolari10", Password = "MrSolari123", Name = "Facundo", Lastname ="Solari", Email ="facusolari9@gmail.com", Rating = 5 },
+      //          new Owner { },
+      //          new Owner {},
+      //          new Owner { }        
+      //       });
+      //  }
     }
 }

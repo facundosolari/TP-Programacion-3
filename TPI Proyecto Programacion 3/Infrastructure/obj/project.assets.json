@@ -482,6 +482,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -1178,27 +1188,33 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+    "C:\\Users\\facus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\facus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\facus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1212,7 +1228,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\facus\\OneDrive\\Escritorio\\Facultad\\Programacion 3\\TP\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1251,7 +1271,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{37695315-CD23-4C53-8496-7EF2FEB26997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contract", "Contract\Contract.csproj", "{37695315-CD23-4C53-8496-7EF2FEB26997}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
