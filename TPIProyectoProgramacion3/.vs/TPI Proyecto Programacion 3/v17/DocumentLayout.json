@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\buildingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\buildingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\inquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\inquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\propietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\propietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Building.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Building.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Building.cs",
+              "RelativeToolTip": "Domain\\Entities\\Building.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvyIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:10:22.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Owner.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Owner.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Owner.cs",
+              "RelativeToolTip": "Domain\\Entities\\Owner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:04:26.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuildingController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\BuildingController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\BuildingController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\BuildingController.cs",
+              "RelativeToolTip": "Web\\Controllers\\BuildingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:11:38.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inquilino.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inquilino.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Inquilino.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Inquilino.cs",
+              "RelativeToolTip": "Domain\\Entities\\Inquilino.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:53:12.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:31:02.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:11:44.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropietarioController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\PropietarioController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PropietarioController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\PropietarioController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PropietarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T01:15:45.597Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
