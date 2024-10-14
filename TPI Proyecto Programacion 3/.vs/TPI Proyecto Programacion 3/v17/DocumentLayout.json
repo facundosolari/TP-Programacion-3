@@ -1,42 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
+  "WorkspaceRootPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\data\\buildingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\buildingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\data\\appartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\data\\appartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\persistence\\apparmentscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\persistence\\apparmentscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\apparmentscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\interfaces\\appartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\interfaces\\appartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\appartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\application\\interfaces\\ibuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapiprueba\\webapiprueba\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\interfaces\\buildingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\buildingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,142 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 334,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Owner.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Owner.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Owner.cs",
+              "RelativeToolTip": "Domain\\Entities\\Owner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T22:17:44.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
               "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABEAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T16:04:04.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\AppartmentController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
               "RelativeToolTip": "Web\\Controllers\\AppartmentController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:50:29.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T15:50:29.521Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AppartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\AppartmentRepository.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\AppartmentRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\AppartmentRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\AppartmentRepository.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\AppartmentRepository.cs",
               "RelativeToolTip": "Infrastructure\\Data\\AppartmentRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:44:21.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T15:44:21.029Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AppartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AppartmentService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
               "RelativeToolTip": "Application\\Services\\AppartmentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:55:35.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T14:55:35.872Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AppartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\AppartmentRepository.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\AppartmentRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\AppartmentRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\AppartmentRepository.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\AppartmentRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\AppartmentRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:22:34.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T15:22:34.039Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ApparmentsContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Persistence\\ApparmentsContext.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Persistence\\ApparmentsContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\ApparmentsContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Persistence\\ApparmentsContext.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Persistence\\ApparmentsContext.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\ApparmentsContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:48:26.941Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 114,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BuildingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\BuildingRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\BuildingRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\BuildingRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\BuildingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:44:04.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BuildingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\BuildingRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\BuildingRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\BuildingRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\BuildingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:29:53.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBuilding.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IBuilding.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IBuilding.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IBuilding.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IBuilding.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:23:49.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T15:48:26.941Z"
             }
           ]
         }
