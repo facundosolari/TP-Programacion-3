@@ -11,8 +11,8 @@ namespace Application.Interfaces;
 
     public interface IBuilding
     {
-    BuildingResponse Create(BuildingRequest building);
-    List<BuildingResponse> GetAll();
-    BuildingResponse? GetById(int id);
-}
+        BuildingResponse Create(BuildingRequest building);
+        List<BuildingResponse> GetAll();
+        BuildingResponse? GetById(int id);
+    }
 

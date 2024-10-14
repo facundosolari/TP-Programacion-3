@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Contract.InquilinoModels.Request;
-using Contract.InquilinoModels.Response;
+using Contract.TenantModels.Request;
+using Contract.TenantModels.Response;
 
 namespace Application.Interfaces;
 
-public interface IInquilino
+public interface ITenant
 {
-    InquilinoResponse Create(InquilinoRequest inquilino);
-    List<InquilinoResponse> GetAll();
-    InquilinoResponse? GetById(int id);
+    TenantResponse Create(TenantRequest tenant);
+    List<TenantResponse> GetAll();
+    TenantResponse? GetById(int id);
 }
 

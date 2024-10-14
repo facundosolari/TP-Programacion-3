@@ -1,5 +1,11 @@
+using Application.Interfaces;
 using Application.Services;
 using Domain.Entities;
+using Domain.Interfaces;
+using Infrastructure.Data;
+using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using Web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +15,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IOwnerService, OwnerService>();
+// tipo de vida, singleton: existe una única vez para toda la app
+// scoped: se usa una vez por instancia
+builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
+
+builder.Services.AddDbContext<OwnerDbContext>(x => x.UseSqlite(builder.Configuration.GetConnectionString("OwnerDbConnection")));
 
 var app = builder.Build();
 

@@ -9,7 +9,9 @@ namespace Contract.OwnerModels.Response
 {
     public class OwnerResponse
     {
-        public string? Photo { get; set; }
-        public int? Rating { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Lastname { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
     }
 }

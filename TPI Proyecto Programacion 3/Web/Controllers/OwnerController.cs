@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Entities;
-using Application.Services;
+using Contract.OwnerModels.Response;
+using Contract.OwnerModels.Request;
+using Application.Interfaces;
 
 namespace Web.Controllers
 {
@@ -10,28 +12,76 @@ namespace Web.Controllers
     public class OwnerController : ControllerBase
     {
         // inyeccion de dependencia 
-        private readonly OwnerService _ownerService;
+        private readonly IOwnerService _ownerService;
 
-        public OwnerController(OwnerService ownerService)
+        public OwnerController(IOwnerService ownerService)
         {
             _ownerService = ownerService;
         }
-        // es para no instanciar directamente el objeto aca abajo
-      //  public IActionResult GetOwner()
-      //  {
-      //      return Ok(_ownerService.GetOwnerService());
-      //  }
 
-      //  [HttpGet]
-      //  public IActionResult Get()
-      //  {
-      //      return Ok(new List<Owner>
-      //      {
-      //          new Owner { Username = "MrSolari10", Password = "MrSolari123", Name = "Facundo", Lastname ="Solari", Email ="facusolari9@gmail.com", Rating = 5 },
-      //          new Owner { },
-      //          new Owner {},
-      //          new Owner { }        
-      //       });
-      //  }
+        [HttpGet]
+        public ActionResult<List<OwnerResponse>> GetAllOwner()
+        {
+            var response = new List<OwnerResponse>();
+
+            try
+            {
+                response = _ownerService.GetAll();
+                if (response.Count is 0)
+                {
+                    return NotFound("No existe ningún propietario");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            return response;
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<List<OwnerResponse>> GetOwnerById([FromRoute] int id)
+        {
+            var response = new OwnerResponse();
+
+            try
+            {
+                response = _ownerService.GetById(id);
+
+                if (response is null)
+                {
+                    return NotFound($"No existe un propietario con id: {id}");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost]
+        public IActionResult CreateOwner([FromBody] CreateOwnerRequest owner)
+        {
+            var response = new OwnerResponse();
+            string locationUrl = string.Empty;
+
+            try
+            {
+                response = _ownerService.Create(owner);
+
+                string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent}";
+                string apiAndEndpointUrl = $"api/owners/{response.Id}";
+                locationUrl = $"{baseUrl}/{apiAndEndpointUrl}";
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            return Created(locationUrl, response);
+        }
     }
 }
