@@ -26,7 +26,7 @@ public static class BuildingsProfile
             Pictures = request.Pictures,
             Description = request.Description,
             Rating = request.Rating,
-            UserId = request.UserId,
+            OwnerId = request.OwnerId,
         };
     }
 

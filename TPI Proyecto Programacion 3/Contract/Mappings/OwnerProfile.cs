@@ -28,7 +28,8 @@ public static class OwnerProfile
     {
         return new OwnerResponse
         {
-            Id = entity.Id,
+            Username = entity.Username,
+            Password = entity.Password,
             Name = entity.Name,
             Lastname = entity.Lastname,
             Email = entity.Email,

@@ -9,19 +9,17 @@ using Web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddPresentation();
 
 builder.Services.AddScoped<IOwnerService, OwnerService>();
 // tipo de vida, singleton: existe una única vez para toda la app
 // scoped: se usa una vez por instancia
 builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
 
-builder.Services.AddDbContext<OwnerDbContext>(x => x.UseSqlite(builder.Configuration.GetConnectionString("OwnerDbConnection")));
+builder.Services.AddDbContext<ProjectDB>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("OwnerDbConnection"),
+    b => b.MigrationsAssembly("Infrastructure"))); 
+
 
 var app = builder.Build();
 

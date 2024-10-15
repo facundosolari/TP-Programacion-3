@@ -1100,7 +1100,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.8",
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
         },
         "compile": {

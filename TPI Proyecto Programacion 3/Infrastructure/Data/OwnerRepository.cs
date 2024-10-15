@@ -10,27 +10,27 @@ using Infrastructure.Persistence;
 namespace Infrastructure.Data;
 public class OwnerRepository : IOwnerRepository
 {
-    private readonly OwnerDbContext _ownerDbContext;
+    private readonly ProjectDB _dbContext;
 
-    public OwnerRepository(OwnerDbContext ownerDbContext)
+    public OwnerRepository(ProjectDB dbContext)
     {
-        _ownerDbContext = ownerDbContext;
+        _dbContext = dbContext;
     }
 
     public void Create(Owner entity)
     {
-        _ownerDbContext.Owners.Add(entity);
-        _ownerDbContext.SaveChanges();
+        _dbContext.Owners.Add(entity);
+        _dbContext.SaveChanges();
     }
 
     public List<Owner> GetAll()
     {
-        return _ownerDbContext.Owners.ToList();
+        return _dbContext.Owners.ToList();
     }
 
     public Owner? GetById(int id)
     {
-        return _ownerDbContext.Owners.FirstOrDefault(o => o.Id.Equals(id));
+        return _dbContext.Owners.FirstOrDefault(o => o.Id.Equals(id));
     }
 }
 

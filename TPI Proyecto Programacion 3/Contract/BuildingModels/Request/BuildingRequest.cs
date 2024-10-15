@@ -24,6 +24,6 @@ namespace Contract.BuildingModels.Request
         public int? Rating { get; set; }
         private bool isAuthorized { get; set; } = false;
 
-        public int UserId { get; set; }
+        public int OwnerId { get; set; }
     }
 }

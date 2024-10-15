@@ -14,6 +14,6 @@ namespace Domain.Entities
         public string Name { get; set; } = string.Empty;
         public string Lastname { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
-        public bool isAdmin { get; set; } = false;
+        public virtual bool isAdmin { get; set; } = false;
     }
 }

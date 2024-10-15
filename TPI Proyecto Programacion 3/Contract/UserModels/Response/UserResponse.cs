@@ -8,9 +8,9 @@ namespace Contract.UserModels.Response
 {
     public class UserResponse
     {
-        public string Username { get; set; }
-        public string Name { get; set; }
-        public string Lastname { get; set; }
-        public string Email { get; set; }
+        public string Username { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string Lastname { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
     }
 }

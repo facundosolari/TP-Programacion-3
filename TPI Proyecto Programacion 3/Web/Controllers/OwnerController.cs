@@ -68,20 +68,29 @@ namespace Web.Controllers
             var response = new OwnerResponse();
             string locationUrl = string.Empty;
 
+            if (owner == null)
+            {
+                return BadRequest("Owner es null");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             try
             {
                 response = _ownerService.Create(owner);
 
-                string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent}";
-                string apiAndEndpointUrl = $"api/owners/{response.Id}";
-                locationUrl = $"{baseUrl}/{apiAndEndpointUrl}";
+                return Ok(response);
             }
             catch(Exception e)
             {
                 Console.WriteLine(e);
+                Console.WriteLine(response);
+                return BadRequest("error al crear owner");
             }
 
-            return Created(locationUrl, response);
         }
     }
 }

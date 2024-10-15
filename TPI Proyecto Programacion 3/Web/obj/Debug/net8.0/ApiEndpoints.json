@@ -1,0 +1,168 @@
+[
+  {
+    "ContainingType": "Web.Controllers.AdminController",
+    "Method": "Get",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.AppartmentController",
+    "Method": "GetAllAppartments",
+    "RelativePath": "api/Appartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Contract.AppartmentModels.Response.AppartmentResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Web.Controllers.AppartmentController",
+    "Method": "CreateAppartment",
+    "RelativePath": "api/Appartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appartment",
+        "Type": "Contract.AppartmentModels.Request.AppartmentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.AppartmentController",
+    "Method": "GetAppartmentById",
+    "RelativePath": "api/Appartment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Contract.AppartmentModels.Response.AppartmentResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Web.Controllers.BuildingController",
+    "Method": "CreateBuilding",
+    "RelativePath": "api/Building",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "building",
+        "Type": "Contract.BuildingModels.Request.BuildingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.BuildingController",
+    "Method": "CreateBuilding",
+    "RelativePath": "api/Building",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "building",
+        "Type": "Contract.BuildingModels.Request.BuildingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.OwnerController",
+    "Method": "GetAllOwner",
+    "RelativePath": "api/Owner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Contract.OwnerModels.Response.OwnerResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Web.Controllers.OwnerController",
+    "Method": "CreateOwner",
+    "RelativePath": "api/Owner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "owner",
+        "Type": "Contract.OwnerModels.Request.CreateOwnerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.OwnerController",
+    "Method": "GetOwnerById",
+    "RelativePath": "api/Owner/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Contract.OwnerModels.Response.OwnerResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
