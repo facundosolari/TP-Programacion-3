@@ -8,18 +8,17 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Persistence;
 
-public class ProjectDB : DbContext
+public class ProjectContext : DbContext
 {
-    public ProjectDB(DbContextOptions<ProjectDB> options) : base(options)
-    {
-
-    }
-
-  
-
     public DbSet<Owner> Owners { get; set; }
     public DbSet<Building> Buildings { get; set; }
     public DbSet<Appartment> Appartments { get; set; }
+
+    private readonly bool isTestingEnviroment;
+    public ProjectContext(DbContextOptions<ProjectContext> options, bool isTestingEnviroment = false) : base(options)
+    {
+        this.isTestingEnviroment = isTestingEnviroment;
+    }
 
     //protected override void OnModelCreating(ModelBuilder modelBuilder)
     //{
@@ -31,13 +30,4 @@ public class ProjectDB : DbContext
     //        .ValueGeneratedOnAdd();
     //}
 
-    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    //{
-    //    if (!optionsBuilder.IsConfigured)
-    //    {
-    //        // Este es un ejemplo de cómo configurar SQLite. Asegúrate de que esta línea no se ejecute cuando
-    //        // uses el servicio en tu aplicación.
-    //        optionsBuilder.UseSqlite("Data Source=ProjectDB.db");
-    //    }
-    //}
 }

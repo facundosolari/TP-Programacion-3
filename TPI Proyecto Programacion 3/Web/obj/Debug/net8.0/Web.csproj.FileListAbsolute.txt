@@ -111,7 +111,6 @@ C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\
 C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\TPI Proyecto Programacion 3\Web\obj\Debug\net8.0\Web.csproj.Up2Date
 C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\TPI Proyecto Programacion 3\Web\obj\Debug\net8.0\Web.genruntimeconfig.cache
 C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\TPI Proyecto Programacion 3\Web\obj\Debug\net8.0\ref\Web.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\appsettings.Development.json
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\appsettings.json
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.exe
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.deps.json
@@ -358,3 +357,38 @@ C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyect
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Contract.pdb
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Infrastructure.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Azure.Core.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Azure.Identity.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Memory.Data.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

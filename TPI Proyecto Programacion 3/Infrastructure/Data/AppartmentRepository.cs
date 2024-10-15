@@ -6,9 +6,9 @@ namespace Infrastructure.Data
 {
     public class AppartmentRepository : IAppartmentRepository
     {
-        private readonly ProjectDB _dbContext;
+        private readonly ProjectContext _dbContext;
 
-        public AppartmentRepository(ProjectDB dbContext)
+        public AppartmentRepository(ProjectContext dbContext)
         {
             _dbContext = dbContext;
         }

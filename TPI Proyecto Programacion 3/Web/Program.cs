@@ -15,11 +15,12 @@ builder.Services.AddScoped<IOwnerService, OwnerService>();
 // tipo de vida, singleton: existe una única vez para toda la app
 // scoped: se usa una vez por instancia
 builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
+
 builder.Services.AddScoped<IAppartmentService, AppartmentService>();
 builder.Services.AddScoped<IAppartmentRepository, AppartmentRepository>();
 
-builder.Services.AddDbContext<ProjectDB>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("ProjectDB"))); 
+builder.Services.AddDbContext<ProjectContext>(dbContextOptions => dbContextOptions.UseSqlite(
+    builder.Configuration["ConnectionStrings:ProjectDBConnectionString"], b => b.MigrationsAssembly("Web")));
 
 
 var app = builder.Build();

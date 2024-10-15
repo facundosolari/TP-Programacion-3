@@ -10,9 +10,9 @@ using Infrastructure.Persistence;
 namespace Infrastructure.Data;
 public class OwnerRepository : IOwnerRepository
 {
-    private readonly ProjectDB _dbContext;
+    private readonly ProjectContext _dbContext;
 
-    public OwnerRepository(ProjectDB dbContext)
+    public OwnerRepository(ProjectContext dbContext)
     {
         _dbContext = dbContext;
     }

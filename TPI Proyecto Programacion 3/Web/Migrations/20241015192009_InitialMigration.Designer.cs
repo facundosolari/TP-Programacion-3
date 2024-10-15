@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Infrastructure.Migrations
+namespace Web.Migrations
 {
-    [DbContext(typeof(ProjectDB))]
-    [Migration("20241015013608_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(ProjectContext))]
+    [Migration("20241015192009_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -76,7 +76,7 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("Garage")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("OwnerId")
+                    b.Property<int>("OwnerId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Pictures")
@@ -93,9 +93,6 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Ubication")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -148,7 +145,9 @@ namespace Infrastructure.Migrations
                 {
                     b.HasOne("Domain.Entities.Owner", null)
                         .WithMany("Property")
-                        .HasForeignKey("OwnerId");
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Domain.Entities.Owner", b =>
