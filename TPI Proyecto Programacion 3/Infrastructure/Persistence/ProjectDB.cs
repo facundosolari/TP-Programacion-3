@@ -15,31 +15,29 @@ public class ProjectDB : DbContext
 
     }
 
-    public ProjectDB()
-    {
-    }
+  
 
     public DbSet<Owner> Owners { get; set; }
     public DbSet<Building> Buildings { get; set; }
     public DbSet<Appartment> Appartments { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<Owner>()
-            .HasKey(o => o.Id);
+    //protected override void OnModelCreating(ModelBuilder modelBuilder)
+    //{
+    //    modelBuilder.Entity<Owner>()
+    //        .HasKey(o => o.Id);
 
-        modelBuilder.Entity<Owner>()
-            .Property(o => o.Id)
-            .ValueGeneratedOnAdd();
-    }
+    //    modelBuilder.Entity<Owner>()
+    //        .Property(o => o.Id)
+    //        .ValueGeneratedOnAdd();
+    //}
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        if (!optionsBuilder.IsConfigured)
-        {
-            // Este es un ejemplo de cómo configurar SQLite. Asegúrate de que esta línea no se ejecute cuando
-            // uses el servicio en tu aplicación.
-            optionsBuilder.UseSqlite("Data Source=ProjectDB.db");
-        }
-    }
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //{
+    //    if (!optionsBuilder.IsConfigured)
+    //    {
+    //        // Este es un ejemplo de cómo configurar SQLite. Asegúrate de que esta línea no se ejecute cuando
+    //        // uses el servicio en tu aplicación.
+    //        optionsBuilder.UseSqlite("Data Source=ProjectDB.db");
+    //    }
+    //}
 }

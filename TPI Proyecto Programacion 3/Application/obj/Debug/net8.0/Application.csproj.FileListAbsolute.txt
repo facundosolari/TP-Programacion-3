@@ -66,3 +66,5 @@ C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Prog
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\refint\Application.dll
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.pdb
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.dll
+C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.pdb
