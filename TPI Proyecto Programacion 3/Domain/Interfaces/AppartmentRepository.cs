@@ -7,4 +7,6 @@ public interface IAppartmentRepository
     void Create(Appartment entity);
     List<Appartment> GetAll();
     Appartment? GetById(int id);
+    void UpdateAppartment(Appartment appartment);
+    void DeleteAppartment(Appartment appartment);
 }

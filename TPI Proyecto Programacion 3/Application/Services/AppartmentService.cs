@@ -50,5 +50,34 @@ namespace Application.Services
 
             return AppartmentProfile.ToApparmentResponse(apparment);
         }
+
+        public bool UpdateAppartment(int id, AppartmentRequest appartment)
+        {
+            var appartmentEntity = _appartmentRepository.GetById(id);
+
+            if (appartmentEntity != null)
+            {
+                AppartmentProfile.ToAppartmentEntityUpdate(appartmentEntity, appartment);
+                
+                _appartmentRepository.UpdateAppartment(appartmentEntity);
+
+                return true;
+            }
+            return false;
+        }
+
+        public bool DeleteAppartment(int id)
+        {
+            var appartment = _appartmentRepository.GetById(id);
+
+            if (appartment != null)
+            {
+                _appartmentRepository.DeleteAppartment(appartment);
+
+                return true;
+            }
+
+            return false;
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
 using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data
 {
@@ -27,6 +28,18 @@ namespace Infrastructure.Data
         public Appartment? GetById(int id)
         {
             return _dbContext.Appartments.FirstOrDefault(x => x.Id == id);
+        }
+
+        public void UpdateAppartment(Appartment entity)
+        {
+            _dbContext.Appartments.Update(entity);
+            _dbContext.SaveChanges();
+        }
+
+        public void DeleteAppartment(Appartment appartment)
+        {
+            _dbContext.Appartments.Remove(appartment);
+            _dbContext.SaveChanges();
         }
     }
 }

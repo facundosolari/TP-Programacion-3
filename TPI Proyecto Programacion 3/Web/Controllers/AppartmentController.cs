@@ -90,5 +90,18 @@ namespace Web.Controllers
 
             return Created(locationUrl, response);
         }
+
+        [HttpPut("{id}")]
+        public ActionResult<bool> UpdateAppartment([FromRoute] int id, [FromBody] AppartmentRequest appartment)
+        {
+            return Ok(_appartmentService.UpdateAppartment(id, appartment));
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult<bool> DeleteAppartment([FromRoute] int id)
+        {
+            return Ok(_appartmentService.DeleteAppartment(id));
+        }
     }
 }
+
