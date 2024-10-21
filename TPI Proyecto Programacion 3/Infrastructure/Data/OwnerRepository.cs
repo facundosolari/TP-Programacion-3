@@ -32,5 +32,17 @@ public class OwnerRepository : IOwnerRepository
     {
         return _dbContext.Owners.FirstOrDefault(o => o.Id.Equals(id));
     }
+
+    public void UpdateOwner(Owner entity)
+    {
+        _dbContext.Owners.Update(entity);
+        _dbContext.SaveChanges();
+    }
+
+    public void DeleteOwner(Owner entity)
+    {
+        _dbContext.Owners.Remove(entity);
+        _dbContext.SaveChanges();
+    }
 }
 

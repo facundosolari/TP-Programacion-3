@@ -53,5 +53,33 @@ namespace Application.Services
 
             return OwnerProfile.ToOwnerResponse(owner);
         }
+
+        public OwnerResponse? UpdateOwner(int id, UpdateOwnerRequest updatedOwner)
+        {
+            var owner = _ownerRepository.GetById(id);
+
+            if (owner == null)
+            {
+                return null;
+            }
+
+            OwnerProfile.ToOwnerUpdate(owner, updatedOwner);
+            _ownerRepository.UpdateOwner(owner);
+
+            return OwnerProfile.ToOwnerResponse(owner);
+        }
+
+        public OwnerResponse? DeleteOwner(int id)
+        {
+            var owner = _ownerRepository.GetById(id);
+
+            if (owner == null)
+            {
+                return null;
+            }
+
+            _ownerRepository.DeleteOwner(owner);
+            return OwnerProfile.ToOwnerResponse(owner);
+        }
     }
 }

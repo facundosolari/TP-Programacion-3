@@ -4,6 +4,8 @@ using Domain.Entities;
 using Contract.OwnerModels.Response;
 using Contract.OwnerModels.Request;
 using Application.Interfaces;
+using Application.Services;
+using Contract.AppartmentModels.Request;
 
 namespace Web.Controllers
 {
@@ -68,29 +70,30 @@ namespace Web.Controllers
             var response = new OwnerResponse();
             string locationUrl = string.Empty;
 
-            if (owner == null)
-            {
-                return BadRequest("Owner es null");
-            }
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             try
             {
                 response = _ownerService.Create(owner);
 
                 return Ok(response);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e);
-                Console.WriteLine(response);
                 return BadRequest("error al crear owner");
             }
 
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult UpdateOwner([FromRoute] int id, [FromBody] UpdateOwnerRequest owner)
+        {
+            return Ok(_ownerService.UpdateOwner(id, owner));
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteOwner([FromRoute] int id)
+        {
+            return Ok(_ownerService.DeleteOwner(id));
         }
     }
 }

@@ -221,5 +221,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Web.Controllers.OwnerController",
+    "Method": "UpdateOwner",
+    "RelativePath": "api/Owner/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "owner",
+        "Type": "Contract.OwnerModels.Request.UpdateOwnerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.OwnerController",
+    "Method": "DeleteOwner",
+    "RelativePath": "api/Owner/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

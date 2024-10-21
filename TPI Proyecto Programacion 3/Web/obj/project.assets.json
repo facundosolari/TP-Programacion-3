@@ -4859,19 +4859,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Geral\\.nuget\\packages\\": {}
+    "C:\\Users\\nicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\Geral\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\obj\\",
+      "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+      "outputPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4886,14 +4886,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Application.csproj"
+            "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Application.csproj": {
+              "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Application.csproj"
             },
-            "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj": {
-              "projectPath": "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj"
+            "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj": {
+              "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj"
             },
-            "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Geral\\Source\\Repos\\facundosolari\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj"
+            "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -4943,7 +4943,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

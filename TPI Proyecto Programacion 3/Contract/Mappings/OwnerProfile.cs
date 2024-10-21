@@ -35,4 +35,31 @@ public static class OwnerProfile
             Email = entity.Email,
         };
     }
+
+    public static UpdateOwnerRequest ToUpdateOwnerRequest(Owner entity)
+    {
+        return new UpdateOwnerRequest
+        {
+            Username = entity.Username,
+            Password = entity.Password,
+            Name = entity.Name,
+            Lastname = entity.Lastname,
+            Email = entity.Email,
+            Property = entity.Property,
+            Photo = entity.Photo,
+            Rating = entity.Rating,
+        };
+    }
+
+    public static void ToOwnerUpdate(Owner owner, UpdateOwnerRequest request)
+    {
+        owner.Username = request.Username;
+        owner.Password = request.Password;
+        owner.Name = request.Name;
+        owner.Lastname = request.Lastname;
+        owner.Email = request.Email;
+        owner.Property = request.Property;
+        owner.Photo = request.Photo;
+        owner.Rating = request.Rating;
+    }
 }
