@@ -15,6 +15,6 @@ public interface IOwnerService
     OwnerResponse? GetById(int id);
 
     OwnerResponse? UpdateOwner(int id, UpdateOwnerRequest owner);
-    OwnerResponse? DeleteOwner(int id);
+    bool DeleteOwner(int id);
 
 }

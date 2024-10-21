@@ -69,17 +69,17 @@ namespace Application.Services
             return OwnerProfile.ToOwnerResponse(owner);
         }
 
-        public OwnerResponse? DeleteOwner(int id)
+        public bool DeleteOwner(int id)
         {
             var owner = _ownerRepository.GetById(id);
 
             if (owner == null)
             {
-                return null;
+                return false;
             }
 
             _ownerRepository.DeleteOwner(owner);
-            return OwnerProfile.ToOwnerResponse(owner);
+            return true;
         }
     }
 }

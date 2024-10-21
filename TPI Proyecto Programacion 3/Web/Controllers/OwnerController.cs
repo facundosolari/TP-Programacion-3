@@ -6,6 +6,7 @@ using Contract.OwnerModels.Request;
 using Application.Interfaces;
 using Application.Services;
 using Contract.AppartmentModels.Request;
+using System.Linq.Expressions;
 
 namespace Web.Controllers
 {
@@ -43,7 +44,7 @@ namespace Web.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<List<OwnerResponse>> GetOwnerById([FromRoute] int id)
+        public ActionResult GetOwnerById([FromRoute] int id)
         {
             var response = new OwnerResponse();
 
@@ -68,7 +69,6 @@ namespace Web.Controllers
         public IActionResult CreateOwner([FromBody] CreateOwnerRequest owner)
         {
             var response = new OwnerResponse();
-            string locationUrl = string.Empty;
 
             try
             {
@@ -81,19 +81,45 @@ namespace Web.Controllers
                 Console.WriteLine(e);
                 return BadRequest("error al crear owner");
             }
-
         }
 
         [HttpPut("{id}")]
         public ActionResult UpdateOwner([FromRoute] int id, [FromBody] UpdateOwnerRequest owner)
         {
-            return Ok(_ownerService.UpdateOwner(id, owner));
+            var response = new OwnerResponse();
+
+            try
+            {
+                response = _ownerService.UpdateOwner(id, owner);
+                if (response == null)
+                {
+                    return NotFound($"No existe un propietario con id: {id}");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            return Ok(response);
         }
 
         [HttpDelete("{id}")]
         public ActionResult DeleteOwner([FromRoute] int id)
         {
-            return Ok(_ownerService.DeleteOwner(id));
+            try
+            {
+                var owner = _ownerService.DeleteOwner(id);
+                if (!owner)
+                {
+                    return NotFound($"No existe un propietario con id: {id}");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            return Ok($"Propietario con id: {id} eliminado.");
         }
     }
 }

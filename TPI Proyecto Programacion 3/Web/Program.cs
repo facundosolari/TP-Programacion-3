@@ -20,7 +20,7 @@ builder.Services.AddScoped<IAppartmentService, AppartmentService>();
 builder.Services.AddScoped<IAppartmentRepository, AppartmentRepository>();
 
 builder.Services.AddDbContext<ProjectContext>(dbContextOptions => dbContextOptions.UseSqlite(
-    builder.Configuration["ConnectionStrings:ProjectDBConnectionString"], b => b.MigrationsAssembly("Web")));
+    builder.Configuration["ConnectionStrings:ProjectDBConnectionString"], b => b.MigrationsAssembly("Infrastructure")));
 
 
 var app = builder.Build();
