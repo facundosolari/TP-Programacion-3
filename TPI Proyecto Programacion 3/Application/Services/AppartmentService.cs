@@ -33,7 +33,7 @@ namespace Application.Services
                 throw new Exception("No existen departamentos");
             }
 
-            var ownersResponse = appartments.Select(appartment => AppartmentProfile.ToAppartmentResponse(appartment)).ToList();
+            var appartmentResponse = appartments.Select(appartment => AppartmentProfile.ToAppartmentResponse(appartment)).ToList();
 
             return appartmentsResponse;
         }
@@ -47,7 +47,7 @@ namespace Application.Services
                 return null;
             }
 
-            return AppartmentProfile.ToApparmentResponse(apparment);
+            return AppartmentProfile.ToAppartmentResponse(apparment);
         }
 
         public AppartmentResponse Create(AppartmentRequest appartment)
@@ -56,7 +56,7 @@ namespace Application.Services
 
             _appartmentRepository.Create(oAppartment);
 
-            return AppartmentProfile.ToApparmentResponse(oAppartment);
+            return AppartmentProfile.ToAppartmentResponse(oAppartment);
         }
 
         public bool UpdateAppartment(int id, AppartmentRequest appartment)

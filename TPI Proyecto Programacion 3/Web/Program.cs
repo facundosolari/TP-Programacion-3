@@ -16,8 +16,14 @@ builder.Services.AddPresentation();
 builder.Services.AddScoped<IOwnerService, OwnerService>();
 builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
 
+builder.Services.AddScoped<IBuildingService, BuildingService>();
+builder.Services.AddScoped<IBuildingRepository, BuildingRepository>();
+
 builder.Services.AddScoped<IAppartmentService, AppartmentService>();
 builder.Services.AddScoped<IAppartmentRepository, AppartmentRepository>();
+
+builder.Services.AddScoped<ITenantService, TenantService>();
+builder.Services.AddScoped<ITenantRepository, TenantRepository>();
 
 builder.Services.AddDbContext<ProjectContext>(dbContextOptions => dbContextOptions.UseSqlite(
     builder.Configuration["ConnectionStrings:ProjectDBConnectionString"], b => b.MigrationsAssembly("Infrastructure")));
