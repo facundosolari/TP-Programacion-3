@@ -1,6 +1,4 @@
-﻿using Domain.Entities;
-
-namespace Contract.AppartmentModels.Request
+﻿namespace Contract.AppartmentModels.Request
 {
     public class AppartmentRequest
     {
@@ -11,9 +9,6 @@ namespace Contract.AppartmentModels.Request
         public string? Description { get; set; } = string.Empty;
         public int? Rating { get; set; }
         public int BuildingId { get; set; }
-        public Tenant? Tenant { get; set; }
-        public float Price { get; set; }
-        public bool IsAvailable { get; set; }
-        public List<string>? Pictures { get; set; }
+        public int? TenantId { get; set; }
     }
 }

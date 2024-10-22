@@ -42,55 +42,50 @@ namespace Application.Services
         {
             var apparment = _appartmentRepository.GetById(id);
 
-            if (apparment == null)
+            if (apparment is null)
             {
-                throw new Exception("Departamento no encontrado.");
+                return null;
             }
 
-            return AppartmentProfile.ToAppartmentResponse(apparment);
+            return AppartmentProfile.ToApparmentResponse(apparment);
         }
 
         public AppartmentResponse Create(AppartmentRequest appartment)
         {
             var oAppartment = AppartmentProfile.ToAppartmentEntity(appartment);
-            
-            if (oAppartment == null)
-            {
-                throw new Exception("Error al crear departamento.");
-            }
 
             _appartmentRepository.Create(oAppartment);
 
-            return AppartmentProfile.ToAppartmentResponse(oAppartment);
+            return AppartmentProfile.ToApparmentResponse(oAppartment);
         }
 
-        public AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment)
+        public bool UpdateAppartment(int id, AppartmentRequest appartment)
         {
             var appartmentEntity = _appartmentRepository.GetById(id);
 
-            if (appartmentEntity == null)
+            if (appartmentEntity != null)
             {
-                throw new Exception("Departamento no encontrado.");
-                        
+                AppartmentProfile.ToAppartmentEntityUpdate(appartmentEntity, appartment);
+                
+                _appartmentRepository.UpdateAppartment(appartmentEntity);
+
+                return true;
             }
-            AppartmentProfile.ToAppartmentEntityUpdate(appartmentEntity, appartment);
-
-            _appartmentRepository.UpdateAppartment(appartmentEntity);
-
-            return AppartmentProfile.ToAppartmentResponse(appartmentEntity);
+            return false;
         }
 
-        public AppartmentResponse DeleteAppartment(int id)
+        public bool DeleteAppartment(int id)
         {
             var appartment = _appartmentRepository.GetById(id);
 
-            if (appartment == null)
+            if (appartment != null)
             {
-                throw new Exception("Departamento no encontrado.");
-                
+                _appartmentRepository.DeleteAppartment(appartment);
+
+                return true;
             }
-            _appartmentRepository.DeleteAppartment(appartment);
-            return AppartmentProfile.ToAppartmentResponse(appartment);
+
+            return false;
         }
     }
 }

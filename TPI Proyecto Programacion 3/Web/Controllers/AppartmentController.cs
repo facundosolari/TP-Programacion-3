@@ -14,6 +14,7 @@ namespace Web.Controllers
     public class AppartmentController : ControllerBase
     {
         private readonly IAppartmentService _appartmentService;
+        private static readonly List<Appartment> Apparments = new List<Appartment>();
 
         public AppartmentController(IAppartmentService appartmentService)
         {
@@ -64,49 +65,36 @@ namespace Web.Controllers
         
         public IActionResult CreateAppartment([FromBody] AppartmentRequest appartment)
         {
+            var response = new AppartmentResponse();
+
+            string locationUrl = string.Empty;
 
             try
             {
-                var response = _appartmentService.Create(appartment);
-                return Ok(response);
+                response = _appartmentService.Create(appartment);
+
+                string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent()}";
+                string apiAndEndpointUrl = $"api/apparments/{response.Id}";
+                locationUrl = $"{baseUrl}/{apiAndEndpointUrl}";
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return NotFound(e.Message);
             }
 
-            
+            return Created(locationUrl, response);
         }
 
         [HttpPut("{id}")]
         public ActionResult<bool> UpdateAppartment([FromRoute] int id, [FromBody] AppartmentRequest appartment)
         {
-            try
-            {
-                var response = _appartmentService.UpdateAppartment(id, appartment);
-                return Ok(response);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                return NotFound(e.Message);
-            }
+            return Ok(_appartmentService.UpdateAppartment(id, appartment));
         }
 
         [HttpDelete("{id}")]
         public ActionResult<bool> DeleteAppartment([FromRoute] int id)
         {
-           try
-           {
-                var response = _appartmentService.DeleteAppartment(id);
-                return Ok(response);
-           }
-           catch (Exception e) 
-           {
-                Console.WriteLine(e);
-                return NotFound(e.Message);
-           }
+            return Ok(_appartmentService.DeleteAppartment(id));
         }
     }
 }
