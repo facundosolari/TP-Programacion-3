@@ -21,8 +21,8 @@ namespace Domain.Entities
         public string? Description { get; set; }
         public int? Rating { get; set; }
         private bool isAuthorized { get; set; } = false;
-
-        public int OwnerId { get; set; }
+        public int OwnerId { get; set; } // clave foránea
+        public Owner Owner { get; set; } 
     }
 
     

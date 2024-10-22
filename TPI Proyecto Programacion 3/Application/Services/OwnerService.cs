@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,6 @@ using Application.Interfaces;
 using Contract.Mappings;
 using Contract.OwnerModels.Request;
 using Contract.OwnerModels.Response;
-using Domain.Entities;
 using Domain.Interfaces;
 
 namespace Application.Services
@@ -21,46 +21,52 @@ namespace Application.Services
             _ownerRepository = ownerRepository;
         }
 
-        public OwnerResponse Create(CreateOwnerRequest owner)
-        {
-            var newOwner = OwnerProfile.ToOwnerEntity(owner);
-            _ownerRepository.Create(newOwner);
-            return OwnerProfile.ToOwnerResponse(newOwner);
-        }
-
         public List<OwnerResponse> GetAll()
         {
             var owners = _ownerRepository.GetAll();
-            var ownersResponse = new List<OwnerResponse>();
 
-            foreach (var owner in owners)
+            if (owners == null || owners.Count == 0)
             {
-                var ownerResp = OwnerProfile.ToOwnerResponse(owner);
-                ownersResponse.Add(ownerResp);
+                throw new Exception("No existen propietarios");
             }
+
+            var ownersResponse = owners.Select(owner => OwnerProfile.ToOwnerResponse(owner)).ToList();
 
             return ownersResponse;
         }
 
-        public OwnerResponse? GetById(int id)
+        public OwnerResponse GetById(int id)
         {
             var owner = _ownerRepository.GetById(id);
 
             if (owner == null)
             {
-                return null;
+                throw new Exception("Propietario no encontrado");
             }
 
             return OwnerProfile.ToOwnerResponse(owner);
         }
 
-        public OwnerResponse? UpdateOwner(int id, UpdateOwnerRequest updatedOwner)
+        public OwnerResponse Create(CreateOwnerRequest owner)
+        {
+            var newOwner = OwnerProfile.ToOwnerEntity(owner);
+
+            if (newOwner == null)
+            {
+                throw new Exception("Error al crear nuevo propietario");
+            }
+
+            _ownerRepository.Create(newOwner);
+            return OwnerProfile.ToOwnerResponse(newOwner);
+        }
+
+        public OwnerResponse UpdateOwner(int id, UpdateOwnerRequest updatedOwner)
         {
             var owner = _ownerRepository.GetById(id);
 
             if (owner == null)
             {
-                return null;
+                throw new Exception("Propietario no encontrado");
             }
 
             OwnerProfile.ToOwnerUpdate(owner, updatedOwner);
@@ -69,17 +75,17 @@ namespace Application.Services
             return OwnerProfile.ToOwnerResponse(owner);
         }
 
-        public bool DeleteOwner(int id)
+        public OwnerResponse DeleteOwner(int id)
         {
             var owner = _ownerRepository.GetById(id);
 
             if (owner == null)
             {
-                return false;
+                throw new Exception("Propietario no encontrado");
             }
 
             _ownerRepository.DeleteOwner(owner);
-            return true;
+            return OwnerProfile.ToOwnerResponse(owner);
         }
     }
 }

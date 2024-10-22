@@ -10,11 +10,10 @@ namespace Application.Interfaces;
 
 public interface IOwnerService
 {
-    OwnerResponse Create(CreateOwnerRequest owner);
     List<OwnerResponse> GetAll();
-    OwnerResponse? GetById(int id);
-
-    OwnerResponse? UpdateOwner(int id, UpdateOwnerRequest owner);
-    bool DeleteOwner(int id);
+    OwnerResponse GetById(int id);
+    OwnerResponse Create(CreateOwnerRequest owner);
+    OwnerResponse UpdateOwner(int id, UpdateOwnerRequest owner);
+    OwnerResponse DeleteOwner(int id);
 
 }

@@ -13,21 +13,16 @@ public class ProjectContext : DbContext
     public DbSet<Owner> Owners { get; set; }
     public DbSet<Building> Buildings { get; set; }
     public DbSet<Appartment> Appartments { get; set; }
-
-    private readonly bool isTestingEnviroment;
-    public ProjectContext(DbContextOptions<ProjectContext> options, bool isTestingEnviroment = false) : base(options)
+    public ProjectContext(DbContextOptions<ProjectContext> options) : base(options)
     {
-        this.isTestingEnviroment = isTestingEnviroment;
     }
 
-    //protected override void OnModelCreating(ModelBuilder modelBuilder)
-    //{
-    //    modelBuilder.Entity<Owner>()
-    //        .HasKey(o => o.Id);
-
-    //    modelBuilder.Entity<Owner>()
-    //        .Property(o => o.Id)
-    //        .ValueGeneratedOnAdd();
-    //}
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Building>()
+            .HasOne(b => b.Owner)
+            .WithMany(o => o.Property)
+            .HasForeignKey(b => b.OwnerId);
+    }
 
 }

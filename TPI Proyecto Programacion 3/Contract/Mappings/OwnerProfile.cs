@@ -21,6 +21,7 @@ public static class OwnerProfile
             Name = request.Name,
             Lastname = request.Lastname,
             Email = request.Email,
+            Photo = request.Photo,
         };
     }
 
@@ -29,10 +30,10 @@ public static class OwnerProfile
         return new OwnerResponse
         {
             Username = entity.Username,
-            Password = entity.Password,
             Name = entity.Name,
             Lastname = entity.Lastname,
             Email = entity.Email,
+            Photo = entity.Photo ?? "urlDeFotoPredeterminada.com",
         };
     }
 

@@ -1,15 +1,5 @@
 [
   {
-    "ContainingType": "Web.Controllers.AdminController",
-    "Method": "Get",
-    "RelativePath": "api/Admin",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Web.Controllers.AppartmentController",
     "Method": "GetAllAppartments",
     "RelativePath": "api/Appartment",
@@ -210,17 +200,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Contract.OwnerModels.Response.OwnerResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Web.Controllers.OwnerController",

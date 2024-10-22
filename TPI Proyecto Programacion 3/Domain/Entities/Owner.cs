@@ -10,6 +10,6 @@ namespace Domain.Entities
     {
         public List<Building>? Property { get; set; }
         public string? Photo { get; set; }
-        public int? Rating {get; set;}
+        public int? Rating { get; set; }
     }
 }

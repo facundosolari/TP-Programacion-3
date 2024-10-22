@@ -25,101 +25,76 @@ namespace Web.Controllers
         [HttpGet]
         public ActionResult<List<OwnerResponse>> GetAllOwner()
         {
-            var response = new List<OwnerResponse>();
-
             try
             {
-                response = _ownerService.GetAll();
-                if (response.Count is 0)
-                {
-                    return NotFound("No existe ningún propietario");
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
-
-            return response;
-        }
-
-        [HttpGet("{id}")]
-        public ActionResult GetOwnerById([FromRoute] int id)
-        {
-            var response = new OwnerResponse();
-
-            try
-            {
-                response = _ownerService.GetById(id);
-
-                if (response is null)
-                {
-                    return NotFound($"No existe un propietario con id: {id}");
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
-
-            return Ok(response);
-        }
-
-        [HttpPost]
-        public IActionResult CreateOwner([FromBody] CreateOwnerRequest owner)
-        {
-            var response = new OwnerResponse();
-
-            try
-            {
-                response = _ownerService.Create(owner);
-
+                var response = _ownerService.GetAll();
                 return Ok(response);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return BadRequest("error al crear owner");
+                return NotFound(e.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetOwnerById([FromRoute] int id)
+        {
+            try
+            {
+                var response = _ownerService.GetById(id);
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound(e.Message);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult CreateOwner([FromBody] CreateOwnerRequest owner)
+        {
+            try
+            {
+                var response = _ownerService.Create(owner);
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound(e.Message);
             }
         }
 
         [HttpPut("{id}")]
-        public ActionResult UpdateOwner([FromRoute] int id, [FromBody] UpdateOwnerRequest owner)
+        public IActionResult UpdateOwner([FromRoute] int id, [FromBody] UpdateOwnerRequest owner)
         {
-            var response = new OwnerResponse();
-
             try
             {
-                response = _ownerService.UpdateOwner(id, owner);
-                if (response == null)
-                {
-                    return NotFound($"No existe un propietario con id: {id}");
-                }
+                var response = _ownerService.UpdateOwner(id, owner);
+                return Ok(response);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                return NotFound(e.Message);
             }
-
-            return Ok(response);
         }
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteOwner([FromRoute] int id)
+        public IActionResult DeleteOwner([FromRoute] int id)
         {
             try
             {
-                var owner = _ownerService.DeleteOwner(id);
-                if (!owner)
-                {
-                    return NotFound($"No existe un propietario con id: {id}");
-                }
+                var response = _ownerService.DeleteOwner(id);
+                return Ok(response);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                return NotFound(e.Message);
             }
-            return Ok($"Propietario con id: {id} eliminado.");
         }
     }
 }
