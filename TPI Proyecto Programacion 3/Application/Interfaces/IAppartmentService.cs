@@ -10,7 +10,7 @@ namespace Application.Interfaces
         List<AppartmentResponse> GetAll();
 
         AppartmentResponse? GetById(int id);
-        bool UpdateAppartment(int id, AppartmentRequest appartment);
-        bool DeleteAppartment(int id);
+        AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment);
+        AppartmentResponse DeleteAppartment(int id);
     }
 }

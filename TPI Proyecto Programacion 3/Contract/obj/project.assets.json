@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\francisco\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\francisco\\Desktop\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj",
       "projectName": "Contract",
-      "projectPath": "C:\\Users\\francisco\\Desktop\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj",
-      "packagesPath": "C:\\Users\\francisco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\francisco\\Desktop\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\obj\\",
+      "projectPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Contract.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\francisco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -54,8 +54,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\francisco\\Desktop\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\francisco\\Desktop\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj"
+            "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\PC\\source\\repos\\WebAPIPrueba\\WebAPIPrueba\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj"
             }
           }
         }
