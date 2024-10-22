@@ -16,7 +16,10 @@ namespace Contract.Mappings
                 Description = request.Description,
                 Rating = request.Rating,
                 BuildingId = request.BuildingId,
-                TenantId = request.TenantId,
+                Tenant = request.Tenant,
+                Price = request.Price,
+                isAvailable = request.IsAvailable,
+                Pictures = request.Pictures ?? new List<string>()
             };
         }
 
@@ -28,7 +31,10 @@ namespace Contract.Mappings
             appartment.Description = request.Description;
             appartment.Rating = request.Rating;
             appartment.BuildingId = request.BuildingId;
-            appartment.TenantId = request.TenantId;
+            appartment.Tenant = request.Tenant;
+            appartment.Price = request.Price;
+            appartment.isAvailable = request.IsAvailable;
+            appartment.Pictures = request.Pictures ?? new List<string>();
         }
 
         public static AppartmentResponse ToAppartmentResponse(Domain.Entities.Appartment entity)
@@ -41,9 +47,12 @@ namespace Contract.Mappings
                 Rooms = entity.Rooms,
                 Description = entity.Description,
                 Rating = entity.Rating,
-                Id = entity.Id,
+                Id = entity.AppartmentID,
                 BuildingId = entity.BuildingId,
-                TenantId = entity.TenantId,
+                Tenant = entity.Tenant, 
+                Price = entity.Price,
+                IsAvailable = entity.isAvailable,
+                Pictures = entity.Pictures
             };
         }
     }

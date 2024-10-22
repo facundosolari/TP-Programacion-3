@@ -1,4 +1,6 @@
-﻿namespace Contract.AppartmentModels.Response
+﻿using Domain.Entities;
+
+namespace Contract.AppartmentModels.Response
 {
     public class AppartmentResponse
     {
@@ -13,6 +15,9 @@
 
         public int BuildingId { get; set; }
 
-        public int? TenantId { get; set; }
+        public Tenant? Tenant { get; set; }
+        public float Price { get; set; }
+        public bool IsAvailable { get; set; }
+        public List<string>? Pictures { get; set; }
     }
 }
