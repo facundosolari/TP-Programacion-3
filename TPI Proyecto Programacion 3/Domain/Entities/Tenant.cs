@@ -8,8 +8,8 @@ namespace Domain.Entities
 {
     public class Tenant : User
     {
-        public string? Picture { get; set; }
-        public string? Adress { get; set; }
-        public string? TypeBuilding { get; set; }
+        public string? Photo { get; set; }
+        public int? AppartmentId { get; set; }
+        public Appartment? Appartment { get; set; }
     }
 }

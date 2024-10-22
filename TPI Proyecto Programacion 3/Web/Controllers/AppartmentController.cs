@@ -26,22 +26,16 @@ namespace Web.Controllers
         [HttpGet]
         public ActionResult<List<AppartmentResponse>> GetAllAppartments()
         {
-            var response = new List<AppartmentResponse>();
-
             try
             {
-                response = _appartmentService.GetAll();
-                if (response.Count is 0)
-                {
-                    return NotFound("No existe ningún propietario");
-                }
+                var response = _appartmentService.GetAll();
+                return Ok(response);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                return NotFound(e.Message);
             }
-
-            return response;
         }
 
         [HttpGet("{id}")]

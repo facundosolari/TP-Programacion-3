@@ -19,10 +19,14 @@ public class ProjectContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Appartment>()
+            .HasOne(a => a.Tenant)
+            .WithOne(t => t.Appartment)
+            .HasForeignKey<Tenant>(t => t.AppartmentId);
+
         modelBuilder.Entity<Building>()
-            .HasOne(b => b.Owner)
-            .WithMany(o => o.Property)
-            .HasForeignKey(b => b.OwnerId);
+            .HasMany(b => b.Appartments)
+            .WithOne();
     }
 
 }

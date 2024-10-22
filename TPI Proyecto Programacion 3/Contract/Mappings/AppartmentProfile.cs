@@ -31,7 +31,7 @@ namespace Contract.Mappings
             appartment.TenantId = request.TenantId;
         }
 
-        public static AppartmentResponse ToApparmentResponse(Domain.Entities.Appartment entity)
+        public static AppartmentResponse ToAppartmentResponse(Domain.Entities.Appartment entity)
         {
             return new AppartmentResponse
             {

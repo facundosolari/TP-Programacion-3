@@ -3,6 +3,7 @@ using Contract.Mappings;
 using Contract.AppartmentModels.Request;
 using Contract.AppartmentModels.Response;
 using Domain.Interfaces;
+using Domain.Entities;
 
 namespace Application.Services
 {
@@ -15,15 +16,6 @@ namespace Application.Services
             _appartmentRepository = appartmentRepository;
         }
 
-        public AppartmentResponse Create(AppartmentRequest appartment)
-        {
-            var oAppartment = AppartmentProfile.ToAppartmentEntity(appartment);
-
-            _appartmentRepository.Create(oAppartment);
-
-            return AppartmentProfile.ToApparmentResponse(oAppartment);
-        }
-
         public List<AppartmentResponse> GetAll()
         {
             var appartments = _appartmentRepository.GetAll();
@@ -31,10 +23,17 @@ namespace Application.Services
 
             foreach (var appartment in appartments)
             {
-                var apparmentResp = AppartmentProfile.ToApparmentResponse(appartment);
+                var apparmentResp = AppartmentProfile.ToAppartmentResponse(appartment);
 
                 appartmentsResponse.Add(apparmentResp);
             }
+
+            if (appartments == null || appartments.Count == 0)
+            {
+                throw new Exception("No existen departamentos");
+            }
+
+            var ownersResponse = appartments.Select(appartment => AppartmentProfile.ToAppartmentResponse(appartment)).ToList();
 
             return appartmentsResponse;
         }
@@ -49,6 +48,15 @@ namespace Application.Services
             }
 
             return AppartmentProfile.ToApparmentResponse(apparment);
+        }
+
+        public AppartmentResponse Create(AppartmentRequest appartment)
+        {
+            var oAppartment = AppartmentProfile.ToAppartmentEntity(appartment);
+
+            _appartmentRepository.Create(oAppartment);
+
+            return AppartmentProfile.ToApparmentResponse(oAppartment);
         }
 
         public bool UpdateAppartment(int id, AppartmentRequest appartment)

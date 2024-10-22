@@ -11,9 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPresentation();
 
-builder.Services.AddScoped<IOwnerService, OwnerService>();
 // tipo de vida, singleton: existe una única vez para toda la app
 // scoped: se usa una vez por instancia
+builder.Services.AddScoped<IOwnerService, OwnerService>();
 builder.Services.AddScoped<IOwnerRepository, OwnerRepository>();
 
 builder.Services.AddScoped<IAppartmentService, AppartmentService>();
