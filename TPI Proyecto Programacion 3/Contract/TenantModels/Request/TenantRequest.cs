@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
 
-namespace Contract.TenantModels.Response
+namespace Contract.TenantModels.Request
 {
-    public class TenantResponse
+    public class TenantRequest
     {
-        public string? Picture { get; set; }
+        public int Id { get; set; }
+        public string? Photo { get; set; }
     }
 }

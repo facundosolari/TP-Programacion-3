@@ -62,7 +62,6 @@ namespace Web.Controllers
 
 
         [HttpPost]
-        
         public IActionResult CreateAppartment([FromBody] AppartmentRequest appartment)
         {
             var response = new AppartmentResponse();
@@ -74,7 +73,7 @@ namespace Web.Controllers
                 response = _appartmentService.Create(appartment);
 
                 string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent()}";
-                string apiAndEndpointUrl = $"api/apparments/{response.Id}";
+                string apiAndEndpointUrl = $"api/apparments/{response.AppartmentID}";
                 locationUrl = $"{baseUrl}/{apiAndEndpointUrl}";
             }
             catch (Exception e)

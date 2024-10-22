@@ -9,10 +9,9 @@ using Contract.BuildingModels.Response;
 
 namespace Application.Interfaces;
 
-    public interface IBuilding
-    {
-        BuildingResponse Create(BuildingRequest building);
-        List<BuildingResponse> GetAll();
-        BuildingResponse? GetById(int id);
-    }
-
+public interface IBuildingService
+{
+    BuildingResponse Create(BuildingRequest building);
+    List<BuildingResponse> GetAll();
+    BuildingResponse? GetById(int id);
+}

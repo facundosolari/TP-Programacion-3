@@ -6,45 +6,39 @@ using System.Threading.Tasks;
 using Contract.BuildingModels.Request;
 using Contract.BuildingModels.Response;
 using Domain.Enum;
+using Domain.Entities;
 
 namespace Contract.Mappings;
 
 public static class BuildingsProfile
 {
-    public static Domain.Entities.Building ToBuildingEntity(BuildingRequest request)
+    public static Building ToBuildingEntity(BuildingRequest request)
     {
-        return new Domain.Entities.Building
+        return new Building
         {
+            BuildingId = request.BuildingId,
             Ubication = request.Ubication,
-            Type = request.Type,
-            Id = request.Id,
             Adress = request.Adress,
-            Bathrooms = request.Bathrooms,
-            Rooms = request.Rooms,           //en esto no deja poner los atributos privados del request del mismo
             Garage = request.Garage,
             BackYard = request.BackYard,
-            Pictures = request.Pictures,
-            Description = request.Description,
             Rating = request.Rating,
-            OwnerId = request.OwnerId,
+            Appartments = request.Appartments,
+            Owner = request.Owner,
         };
     }
 
-    public static BuildingResponse ToBuildingResponse(Domain.Entities.Building response)
+    public static BuildingResponse ToBuildingResponse(Building response)
     {
         return new BuildingResponse
         {
+            BuildingId = response.BuildingId,
             Ubication = response.Ubication,
-            Type = response.Type,
-            Id = response.Id,
             Adress = response.Adress,
-            Bathrooms = response.Bathrooms,
-            Rooms = response.Rooms,           //en esto no deja poner los atributos privados del request del mismo
             Garage = response.Garage,
             BackYard = response.BackYard,
-            Pictures = response.Pictures,
-            Description = response.Description,
             Rating = response.Rating,
+            Appartments = response.Appartments,
+            Owner = response.Owner,
         };
     }
 }

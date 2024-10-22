@@ -9,7 +9,5 @@ namespace Domain.Entities
     public class Tenant : User
     {
         public string? Photo { get; set; }
-        public int? AppartmentId { get; set; }
-        public Appartment? Appartment { get; set; }
     }
 }
