@@ -13,7 +13,9 @@ namespace Application.Models.Mappings
                 Number = request.Number,
                 Bathrooms = request.Bathrooms,
                 Rooms = request.Rooms,
+                Pictures = request.Pictures,
                 Description = request.Description,
+                Price = request.Price,
             };
         }
 
@@ -23,20 +25,17 @@ namespace Application.Models.Mappings
             appartment.Number = request.Number;
             appartment.Bathrooms = request.Bathrooms;
             appartment.Description = request.Description;
-            appartment.Tenant.Id = request.Tenant.Id;
         }
 
         public static AppartmentResponse ToAppartmentResponse(Domain.Entities.Appartment entity)
         {
             return new AppartmentResponse
             {
-                AppartmentId = entity.AppartmentId,
                 Floor = entity.Floor,
                 Number = entity.Number,
                 Bathrooms = entity.Bathrooms,
                 Rooms = entity.Rooms,
                 Description = entity.Description,
-                Tenant = entity.Tenant,
             };
         }
     }

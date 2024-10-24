@@ -26,6 +26,18 @@ public class BuildingRepository : IBuildingRepository
 
     public Building? GetById(int id)
     {
-        return _dbContext.Buildings.FirstOrDefault(m => m.BuildingId.Equals(id));
+        return _dbContext.Buildings.FirstOrDefault(m => m.Id.Equals(id));
+    }
+
+    public void UpdateBuilding(Building entity)
+    {
+        _dbContext.Buildings.Update(entity);
+        _dbContext.SaveChanges();
+    }
+
+    public void DeleteBuilding(Building entity)
+    {
+        _dbContext.Buildings.Remove(entity);
+        _dbContext.SaveChanges();
     }
 }

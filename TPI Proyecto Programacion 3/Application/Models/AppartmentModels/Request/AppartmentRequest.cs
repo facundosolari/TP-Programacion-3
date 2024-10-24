@@ -4,7 +4,6 @@ namespace Application.Models.AppartmentModels.Request
 {
     public class AppartmentRequest
     {
-        public int AppartmentId { get; set; }
         public int Floor { get; set; }
         public int Number { get; set; }
         public int Bathrooms { get; set; }
@@ -12,6 +11,5 @@ namespace Application.Models.AppartmentModels.Request
         public List<string> Pictures { get; set; } = new List<string>();
         public string Description { get; set; } = string.Empty;
         public float Price { get; set; }
-        public Tenant? Tenant { get; set; }
     }
 }

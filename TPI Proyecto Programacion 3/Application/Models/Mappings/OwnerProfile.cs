@@ -45,7 +45,6 @@ public static class OwnerProfile
             Name = entity.Name,
             Lastname = entity.Lastname,
             Email = entity.Email,
-            Property = entity.Property,
             Photo = entity.Photo,
             Rating = entity.Rating,
         };
@@ -58,7 +57,6 @@ public static class OwnerProfile
         owner.Name = request.Name;
         owner.Lastname = request.Lastname;
         owner.Email = request.Email;
-        owner.Property = request.Property;
         owner.Photo = request.Photo;
         owner.Rating = request.Rating;
     }

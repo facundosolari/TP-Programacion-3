@@ -15,8 +15,6 @@ namespace Domain.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public UserType UserType { get; set; }
-
         [Required]
         [Column(TypeName = "nvarchar(20)")]
         public string Username { get; set; } = string.Empty;

@@ -1,15 +1,20 @@
-﻿using Application.Interfaces;
-using Application.Models.TenantModels.Request;
-using Application.Models.TenantModels.Response;
-using Domain.Entities;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Domain.Entities;
+using Application.Models.TenantModels.Response;
+using Application.Models.TenantModels.Request;
+using Application.Interfaces;
+using Application.Services;
+using Application.Models.AppartmentModels.Request;
+using System.Linq.Expressions;
 
 namespace Web.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class TenantController : ControllerBase
     {
+        // inyeccion de dependencia 
         private readonly ITenantService _tenantService;
 
         public TenantController(ITenantService tenantService)
@@ -18,7 +23,7 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<TenantResponse>> GetAllTenants()
+        public ActionResult<List<TenantResponse>> GetAllTenant()
         {
             try
             {
@@ -48,25 +53,64 @@ namespace Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateTenant([FromBody] TenantRequest tenant)
+        public IActionResult CreateTenant([FromBody] CreateTenantRequest tenant)
         {
-            var response = new TenantResponse();
-            string locationUrl = string.Empty;
-
             try
             {
-                response = _tenantService.Create(tenant);
-
-                string baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent()}";
-                string apiAndEndpointUrl = $"api/tenants/{response.Id}";
-                locationUrl = $"{baseUrl}/{apiAndEndpointUrl}";
+                var response = _tenantService.Create(tenant);
+                return Ok(response);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                return NotFound(e.Message);
             }
-
-            return Created(locationUrl, response);
         }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateTenant([FromRoute] int id, [FromBody] CreateTenantRequest tenant)
+        {
+            try
+            {
+                var response = _tenantService.UpdateTenant(id, tenant);
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound(e.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteTenant([FromRoute] int id)
+        {
+            try
+            {
+                var response = _tenantService.DeleteTenant(id);
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound(e.Message);
+            }
+        }
+
+        [HttpPost("tenant/{tenantId}/{appartmentId}")]
+        public IActionResult AssignAppartmentToTenant([FromRoute] int tenantId, [FromRoute] int appartmentId)
+        {
+            try
+            {
+                var response = _tenantService.AssignAppartmentToTenant(tenantId, appartmentId);
+                return Ok("Asignación correcta");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound(e.Message);
+            };
+        }
+
     }
 }

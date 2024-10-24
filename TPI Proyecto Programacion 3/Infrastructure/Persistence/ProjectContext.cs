@@ -13,51 +13,39 @@ public class ProjectContext : DbContext
 {
     public DbSet<Owner> Owners { get; set; }
     public DbSet<Tenant> Tenants { get; set; }
+    public DbSet<Admin> Admins { get; set; }
     public DbSet<User> Users { get; set; }
     public DbSet<Building> Buildings { get; set; }
     public DbSet<Appartment> Appartments { get; set; }
     public ProjectContext(DbContextOptions<ProjectContext> options) : base(options)
     {
     }
-    /*
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configurar la herencia de User
-        modelBuilder.Entity<User>()
-            .HasDiscriminator<UserType>("UserType")
-            .HasValue<Owner>(UserType.Owner)
-            .HasValue<Tenant>(UserType.Tenant)
-            .HasValue<Admin>(UserType.Admin);
-
-        // Configuración para Owner y su lista de Buildings
+        // Relación Owner -> Buildings (One-to-Many)
         modelBuilder.Entity<Owner>()
-            .HasMany(o => o.Property)
-            .WithOne()
-            .HasForeignKey(b => b.OwnerId);
+            .HasMany(o => o.Buildings)
+            .WithOne(b => b.Owner)
+            .HasForeignKey(b => b.OwnerId)
+            .OnDelete(DeleteBehavior.Cascade); // Si se elimina el Owner, también se eliminan los edificios.
 
-        // Configuración para Building y su lista de Appartments
+        // Relación Building -> Appartments (One-to-Many)
         modelBuilder.Entity<Building>()
             .HasMany(b => b.Appartments)
-            .WithOne()
-            .HasForeignKey(a => a.BuildingId);
+            .WithOne(a => a.Building)
+            .HasForeignKey(a => a.BuildingId)
+            .OnDelete(DeleteBehavior.Cascade); // Si se elimina el Building, también se eliminan los departamentos.
 
-        // Configuración para Appartment y su Tenant
+        // Relación Appartment -> Tenant (One-to-One)
         modelBuilder.Entity<Appartment>()
             .HasOne(a => a.Tenant)
-            .WithOne()
-            .HasForeignKey<Appartment>(a => a.TenantId);
-
-        // Configuración para la tabla de Users, Buildings y Appartments
-        modelBuilder.Entity<User>()
-            .ToTable("Users");
-
-        modelBuilder.Entity<Building>()
-            .ToTable("Buildings");
-
-        modelBuilder.Entity<Appartment>()
-            .ToTable("Appartments");
+            .WithOne(t => t.Appartment)
+            .HasForeignKey<Appartment>(a => a.TenantId)
+            .OnDelete(DeleteBehavior.SetNull); // Si se elimina el Tenant, el departamento no se elimina, pero el TenantId queda en null.
 
         base.OnModelCreating(modelBuilder);
     }
-    */
+
+
 }

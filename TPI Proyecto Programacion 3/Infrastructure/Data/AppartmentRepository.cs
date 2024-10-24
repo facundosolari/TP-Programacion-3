@@ -27,7 +27,7 @@ namespace Infrastructure.Data
 
         public Appartment? GetById(int id)
         {
-            return _dbContext.Appartments.FirstOrDefault(x => x.AppartmentId == id);
+            return _dbContext.Appartments.FirstOrDefault(x => x.Id == id);
         }
 
         public void UpdateAppartment(Appartment entity)

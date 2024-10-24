@@ -4,14 +4,9 @@ using Infrastructure.Persistence;
 
 namespace Infrastructure.Data;
 
-public class TenantRepository : ITenantRepository
+public class TenantRepository : UserRepositoryBase<Tenant> ,ITenantRepository
 {
-    private readonly ProjectContext _dbContext;
-
-    public TenantRepository(ProjectContext dbContext)
-    {
-        _dbContext = dbContext;
-    }
+    public TenantRepository(ProjectContext dbContext) : base(dbContext) { }
 
     public void Create(Tenant entity)
     {

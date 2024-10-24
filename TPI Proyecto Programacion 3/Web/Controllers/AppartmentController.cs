@@ -38,7 +38,7 @@ namespace Web.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<List<AppartmentResponse>> GetAppartmentById([FromRoute] int id)
+        public IActionResult GetAppartmentById([FromRoute] int id)
         {
             var response = new AppartmentResponse();
 

@@ -394,7 +394,6 @@ C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Program
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Web\obj\Debug\net8.0\ref\Web.dll
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\appsettings.json
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.exe
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.xml
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.deps.json
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.runtimeconfig.json
 C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Web\bin\Debug\net8.0\Web.dll

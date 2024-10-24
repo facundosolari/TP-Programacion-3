@@ -11,7 +11,10 @@ namespace Application.Interfaces;
 
 public interface IBuildingService
 {
-    BuildingResponse Create(BuildingRequest building);
     List<BuildingResponse> GetAll();
     BuildingResponse? GetById(int id);
+    BuildingResponse Create(BuildingRequest building);
+    BuildingResponse UpdateBuilding(int id, BuildingRequest building);
+    BuildingResponse DeleteBuilding(int id);
+    bool AssignAppartmentToBuilding(int buildingId, int appartmentId);
 }

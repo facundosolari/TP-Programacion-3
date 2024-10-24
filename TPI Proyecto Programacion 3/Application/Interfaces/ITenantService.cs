@@ -10,8 +10,10 @@ namespace Application.Interfaces;
 
 public interface ITenantService
 {
-    TenantResponse Create(TenantRequest tenant);
     List<TenantResponse> GetAll();
-    TenantResponse? GetById(int id);
+    TenantResponse GetById(int id);
+    TenantResponse Create(CreateTenantRequest tenant);
+    TenantResponse UpdateTenant(int id, CreateTenantRequest tenant);
+    TenantResponse DeleteTenant(int id);
+    bool AssignAppartmentToTenant(int tenantId, int appartmentId);
 }
-
