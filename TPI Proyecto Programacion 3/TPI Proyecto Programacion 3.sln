@@ -10,8 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contract", "Contract\Contract.csproj", "{37695315-CD23-4C53-8496-7EF2FEB26997}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF} = {BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +36,6 @@ Global
 		{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37695315-CD23-4C53-8496-7EF2FEB26997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37695315-CD23-4C53-8496-7EF2FEB26997}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37695315-CD23-4C53-8496-7EF2FEB26997}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37695315-CD23-4C53-8496-7EF2FEB26997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,24 +48,6 @@ C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\
 C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\ref\Application.dll
 C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.dll
 C:\Users\facus\OneDrive\Escritorio\Facultad\Programacion 3\TP\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.deps.json
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.sourcelink.json
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\refint\Application.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\ref\Application.dll
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.dll
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.pdb
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
@@ -86,21 +68,19 @@ C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Program
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.pdb
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\ref\Application.dll
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.sourcelink.json
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.dll
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\refint\Application.dll
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.pdb
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.deps.json
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.dll
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.pdb
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.dll
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.dll
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Contract.pdb
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.pdb
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
-C:\Users\francisco\Desktop\TUP\TUP 3C\programacion 3\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\ref\Application.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.deps.json
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Application.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\bin\Debug\net8.0\Domain.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\refint\Application.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\Application.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Application\obj\Debug\net8.0\ref\Application.dll

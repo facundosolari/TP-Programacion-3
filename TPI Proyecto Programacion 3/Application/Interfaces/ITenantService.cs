@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Contract.TenantModels.Request;
-using Contract.TenantModels.Response;
+using Application.Models.TenantModels.Request;
+using Application.Models.TenantModels.Response;
 
 namespace Application.Interfaces;
 

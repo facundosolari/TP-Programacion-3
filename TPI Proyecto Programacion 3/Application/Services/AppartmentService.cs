@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
-using Contract.Mappings;
-using Contract.AppartmentModels.Request;
-using Contract.AppartmentModels.Response;
+using Application.Models.Mappings;
+using Application.Models.AppartmentModels.Request;
+using Application.Models.AppartmentModels.Response;
 using Domain.Interfaces;
 using Domain.Entities;
 

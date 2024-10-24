@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Domain.Entities;
-using Contract.OwnerModels.Response;
-using Contract.OwnerModels.Request;
+using Application.Models.OwnerModels.Response;
+using Application.Models.OwnerModels.Request;
 using Application.Interfaces;
 using Application.Services;
-using Contract.AppartmentModels.Request;
+using Application.Models.AppartmentModels.Request;
 using System.Linq.Expressions;
 
 namespace Web.Controllers
