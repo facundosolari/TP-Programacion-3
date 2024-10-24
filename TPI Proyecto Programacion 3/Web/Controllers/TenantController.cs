@@ -1,6 +1,6 @@
 ﻿using Application.Interfaces;
-using Contract.TenantModels.Request;
-using Contract.TenantModels.Response;
+using Application.Models.TenantModels.Request;
+using Application.Models.TenantModels.Response;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 

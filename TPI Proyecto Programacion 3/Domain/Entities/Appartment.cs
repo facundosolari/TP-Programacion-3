@@ -7,7 +7,9 @@ namespace Domain.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int TenantId { get; set; } // Foreign Key para el Tenant
+        public int BuildingId { get; set; } // Foreign Key para el Building
+        public int AppartmentId { get; set; }
         public int Floor { get; set; }
         public int Number { get; set; }
         public int Bathrooms { get; set; }
@@ -17,6 +19,5 @@ namespace Domain.Entities
         public float Price { get; set; }
         public bool IsAvailable { get; set; }
         public Tenant? Tenant { get; set; }
-        public int TenantId { get; set; }
     }
 }

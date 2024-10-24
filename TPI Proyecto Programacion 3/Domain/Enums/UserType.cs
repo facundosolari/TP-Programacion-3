@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Enum
+namespace Domain.Enums
 {
-    public enum BuildingType
+    public enum UserType
     {
-        Casa,
-        Departamento
+        Owner = 1,
+        Tenant = 2,
+        Admin = 3
     }
 }

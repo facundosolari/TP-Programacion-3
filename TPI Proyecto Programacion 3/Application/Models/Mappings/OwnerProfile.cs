@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain.Enum;
 using Domain.Entities;
 using Application.Models.OwnerModels.Response;
 using Application.Models.OwnerModels.Request;
