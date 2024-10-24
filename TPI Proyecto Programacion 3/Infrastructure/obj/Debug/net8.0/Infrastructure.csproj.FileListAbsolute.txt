@@ -1,21 +1,3 @@
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Domain.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Domain.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
-C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\PC\source\repos\WebAPIPrueba\WebAPIPrueba\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
@@ -52,3 +34,23 @@ C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Program
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\Geral\Source\Repos\facundosolari\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\UTN\Programacion III\TPI-programacion-III\TP-Programacion-3\TPI Proyecto Programacion 3\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

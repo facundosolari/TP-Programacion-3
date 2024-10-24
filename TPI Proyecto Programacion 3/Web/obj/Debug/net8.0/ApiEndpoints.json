@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Contract.AppartmentModels.Response.AppartmentResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.AppartmentModels.Response.AppartmentResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "appartment",
-        "Type": "Contract.AppartmentModels.Request.AppartmentRequest",
+        "Type": "Application.Models.AppartmentModels.Request.AppartmentRequest",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Contract.AppartmentModels.Response.AppartmentResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.AppartmentModels.Response.AppartmentResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -76,7 +76,7 @@
       },
       {
         "Name": "appartment",
-        "Type": "Contract.AppartmentModels.Request.AppartmentRequest",
+        "Type": "Application.Models.AppartmentModels.Request.AppartmentRequest",
         "IsRequired": true
       }
     ],
@@ -119,6 +119,22 @@
     ]
   },
   {
+    "ContainingType": "Web.Controllers.AuthenticationController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Authentication/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "Application.Models.AuthenticationModels.CredentialsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.BuildingController",
     "Method": "CreateBuilding",
     "RelativePath": "api/Building",
@@ -128,7 +144,7 @@
     "Parameters": [
       {
         "Name": "building",
-        "Type": "Contract.BuildingModels.Request.BuildingRequest",
+        "Type": "Application.Models.BuildingModels.Request.BuildingRequest",
         "IsRequired": true
       }
     ],
@@ -144,7 +160,7 @@
     "Parameters": [
       {
         "Name": "building",
-        "Type": "Contract.BuildingModels.Request.BuildingRequest",
+        "Type": "Application.Models.BuildingModels.Request.BuildingRequest",
         "IsRequired": true
       }
     ],
@@ -160,7 +176,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Contract.OwnerModels.Response.OwnerResponse, Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.OwnerModels.Response.OwnerResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -180,7 +196,7 @@
     "Parameters": [
       {
         "Name": "owner",
-        "Type": "Contract.OwnerModels.Request.CreateOwnerRequest",
+        "Type": "Application.Models.OwnerModels.Request.CreateOwnerRequest",
         "IsRequired": true
       }
     ],
@@ -217,7 +233,7 @@
       },
       {
         "Name": "owner",
-        "Type": "Contract.OwnerModels.Request.UpdateOwnerRequest",
+        "Type": "Application.Models.OwnerModels.Request.UpdateOwnerRequest",
         "IsRequired": true
       }
     ],

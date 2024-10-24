@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
-using Contract.Mappings;
-using Contract.AppartmentModels.Request;
-using Contract.AppartmentModels.Response;
+using Application.Models.Mappings;
+using Application.Models.AppartmentModels.Request;
+using Application.Models.AppartmentModels.Response;
 using Domain.Interfaces;
 using Domain.Entities;
 
@@ -47,7 +47,7 @@ namespace Application.Services
                 return null;
             }
 
-            return AppartmentProfile.ToApparmentResponse(apparment);
+            return AppartmentProfile.ToAppartmentResponse(apparment);
         }
 
         public AppartmentResponse Create(AppartmentRequest appartment)
@@ -56,7 +56,7 @@ namespace Application.Services
 
             _appartmentRepository.Create(oAppartment);
 
-            return AppartmentProfile.ToApparmentResponse(oAppartment);
+            return AppartmentProfile.ToAppartmentResponse(oAppartment);
         }
 
         public bool UpdateAppartment(int id, AppartmentRequest appartment)

@@ -13,7 +13,7 @@ namespace Domain.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int BuildingID { get; set; }
+        public int Id { get; set; }
         public string Ubication { get; set; } = string.Empty;
         public string Adress { get; set; } = string.Empty; 
         public bool Garage { get; set; }

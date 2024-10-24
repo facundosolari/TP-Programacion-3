@@ -8,14 +8,9 @@ using Domain.Interfaces;
 using Infrastructure.Persistence;
 
 namespace Infrastructure.Data;
-public class OwnerRepository : IOwnerRepository
+public class OwnerRepository : UserRepositoryBase<Owner>, IOwnerRepository
 {
-    private readonly ProjectContext _dbContext;
-
-    public OwnerRepository(ProjectContext dbContext)
-    {
-        _dbContext = dbContext;
-    }
+    public OwnerRepository(ProjectContext dbContext) : base(dbContext) { }
 
     public void Create(Owner entity)
     {

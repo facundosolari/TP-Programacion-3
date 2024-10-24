@@ -33,6 +33,5 @@ namespace Domain.Entities
         [Required]
         [EmailAddress]
         public string Email { get; set; } = string.Empty;
-        public virtual bool isAdmin { get; set; } = false;
     }
 }

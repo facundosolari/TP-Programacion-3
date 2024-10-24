@@ -7,20 +7,40 @@
       "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\entities\\appartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\appartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\models\\authenticationmodels\\credentialsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\models\\authenticationmodels\\credentialsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\contract\\mappings\\appartmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37695315-CD23-4C53-8496-7EF2FEB26997}|Contract\\Contract.csproj|solutionrelative:contract\\mappings\\appartmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\data\\userrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\userrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\infrastructure\\data\\ownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\ownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\domain\\interfaces\\iownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,9 +49,34 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 295,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:21:25.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T04:16:43.601Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,62 +85,96 @@
               "RelativeDocumentMoniker": "Web\\Program.cs",
               "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
               "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:26:13.062Z",
+              "WhenOpened": "2024-10-24T03:57:09.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Appartment.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Appartment.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Appartment.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Appartment.cs",
-              "RelativeToolTip": "Domain\\Entities\\Appartment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Title": "CredentialsRequest.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Models\\AuthenticationModels\\CredentialsRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\AuthenticationModels\\CredentialsRequest.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Models\\AuthenticationModels\\CredentialsRequest.cs",
+              "RelativeToolTip": "Application\\Models\\AuthenticationModels\\CredentialsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:21:22.41Z",
+              "WhenOpened": "2024-10-24T03:41:37.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppartmentProfile.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Mappings\\AppartmentProfile.cs",
-              "RelativeDocumentMoniker": "Contract\\Mappings\\AppartmentProfile.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Contract\\Mappings\\AppartmentProfile.cs",
-              "RelativeToolTip": "Contract\\Mappings\\AppartmentProfile.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:16:34.085Z",
+              "WhenOpened": "2024-10-24T02:51:05.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppartmentService.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AppartmentService.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
-              "RelativeToolTip": "Application\\Services\\AppartmentService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ICustomAuthenticationService.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:12:14.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T04:25:15.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppartmentController.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\AppartmentController.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
-              "RelativeToolTip": "Web\\Controllers\\AppartmentController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UserRepositoryBase.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\UserRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\UserRepositoryBase.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\UserRepositoryBase.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\UserRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:11:08.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T03:24:34.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OwnerRepository.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\OwnerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\OwnerRepository.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\OwnerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\OwnerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T02:59:25.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T03:02:58.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOwnerRepository.cs",
+              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IOwnerRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IOwnerRepository.cs",
+              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IOwnerRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IOwnerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T03:03:16.662Z"
             }
           ]
         }

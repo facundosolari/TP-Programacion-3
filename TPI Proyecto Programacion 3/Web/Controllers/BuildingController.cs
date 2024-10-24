@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Domain.Entities;
 using Application.Interfaces;
-using Contract.BuildingModels.Request;
-using Contract.BuildingModels.Response;
+using Application.Models.BuildingModels.Request;
+using Application.Models.BuildingModels.Response;
 using Application.Services;
 
 namespace Web.Controllers

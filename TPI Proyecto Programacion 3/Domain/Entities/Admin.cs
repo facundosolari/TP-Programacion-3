@@ -8,6 +8,6 @@ namespace Domain.Entities
 {
     public class Admin : User
     {
-        public override bool isAdmin { get; set; } = true; // ? ver de que manera manejarlo
+
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
 using Application.Services;
-using Contract.AppartmentModels.Request;
-using Contract.AppartmentModels.Response;
+using Application.Models.AppartmentModels.Request;
+using Application.Models.AppartmentModels.Response;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 

@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
 {
-    public class Appartment : Building
+    public class Appartment
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int AppartmentID { get; set; }
+        public int Id { get; set; }
         public int Floor { get; set; }
         public int Number { get; set; }
         public int Bathrooms { get; set; }
@@ -18,5 +18,6 @@ namespace Domain.Entities
         public bool isAvailable { get; set; }
         public int BuildingId { get; set; }
         public Tenant? Tenant { get; set; }
+        public int TenantId { get; set; }
     }
 }

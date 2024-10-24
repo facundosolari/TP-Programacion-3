@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
-using Contract.Mappings;
-using Contract.BuildingModels.Request;
-using Contract.BuildingModels.Response;
+using Application.Models.Mappings;
+using Application.Models.BuildingModels.Request;
+using Application.Models.BuildingModels.Response;
 using Domain.Interfaces;
 
 namespace Application.Services;

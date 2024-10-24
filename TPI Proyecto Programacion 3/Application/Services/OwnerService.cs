@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Application.Interfaces;
-using Contract.Mappings;
-using Contract.OwnerModels.Request;
-using Contract.OwnerModels.Response;
+using Application.Models.Mappings;
+using Application.Models.OwnerModels.Request;
+using Application.Models.OwnerModels.Response;
 using Domain.Interfaces;
 
 namespace Application.Services
