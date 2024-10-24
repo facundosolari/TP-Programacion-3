@@ -8,7 +8,7 @@ using Application.Models.TenantModels.Response;
 
 namespace Application.Interfaces;
 
-public interface ITenant
+public interface ITenantService
 {
     TenantResponse Create(TenantRequest tenant);
     List<TenantResponse> GetAll();

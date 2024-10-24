@@ -13,10 +13,9 @@ namespace Domain.Entities
         public int Bathrooms { get; set; }
         public int Rooms { get; set; }
         public List<string> Pictures { get; set; } = new List<string>();
-        public string? Description { get; set; }
+        public string Description { get; set; } = string.Empty; 
         public float Price { get; set; }
-        public bool isAvailable { get; set; }
-        public int BuildingId { get; set; }
+        public bool IsAvailable { get; set; }
         public Tenant? Tenant { get; set; }
         public int TenantId { get; set; }
     }

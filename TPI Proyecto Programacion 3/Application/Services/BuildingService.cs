@@ -6,7 +6,7 @@ using Domain.Interfaces;
 
 namespace Application.Services;
 
-public class BuildingService : IBuilding
+public class BuildingService : IBuildingService
 {
     private readonly IBuildingRepository _buildingRepository;
 

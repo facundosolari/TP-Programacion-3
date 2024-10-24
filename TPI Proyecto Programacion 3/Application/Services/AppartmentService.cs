@@ -33,7 +33,7 @@ namespace Application.Services
                 throw new Exception("No existen departamentos");
             }
 
-            var ownersResponse = appartments.Select(appartment => AppartmentProfile.ToAppartmentResponse(appartment)).ToList();
+            var appartmentResponse = appartments.Select(appartment => AppartmentProfile.ToAppartmentResponse(appartment)).ToList();
 
             return appartmentsResponse;
         }
@@ -42,9 +42,9 @@ namespace Application.Services
         {
             var apparment = _appartmentRepository.GetById(id);
 
-            if (apparment is null)
+            if (apparment == null)
             {
-                return null;
+                throw new Exception("Departamento no encontrado.");
             }
 
             return AppartmentProfile.ToAppartmentResponse(apparment);
@@ -54,38 +54,46 @@ namespace Application.Services
         {
             var oAppartment = AppartmentProfile.ToAppartmentEntity(appartment);
 
+            if (oAppartment == null)
+            {
+                throw new Exception("Ocurrio un error al crear un nuevo departamento.");
+            }
+
             _appartmentRepository.Create(oAppartment);
 
             return AppartmentProfile.ToAppartmentResponse(oAppartment);
         }
 
-        public bool UpdateAppartment(int id, AppartmentRequest appartment)
+        public AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment)
         {
             var appartmentEntity = _appartmentRepository.GetById(id);
 
-            if (appartmentEntity != null)
+            if (appartmentEntity == null)
             {
-                AppartmentProfile.ToAppartmentEntityUpdate(appartmentEntity, appartment);
-                
-                _appartmentRepository.UpdateAppartment(appartmentEntity);
 
-                return true;
+                throw new Exception("Ocurrio un error al obtener el departamento.");
             }
-            return false;
+
+            AppartmentProfile.ToAppartmentEntityUpdate(appartmentEntity, appartment);
+
+            _appartmentRepository.UpdateAppartment(appartmentEntity);
+
+            return AppartmentProfile.ToAppartmentResponse(appartmentEntity);
         }
 
-        public bool DeleteAppartment(int id)
+        public AppartmentResponse DeleteAppartment(int id)
         {
             var appartment = _appartmentRepository.GetById(id);
 
-            if (appartment != null)
+            if (appartment == null)
             {
-                _appartmentRepository.DeleteAppartment(appartment);
-
-                return true;
+                throw new Exception("Ocurrio un error al obtener el departamento.");
+                
             }
 
-            return false;
+            _appartmentRepository.DeleteAppartment(appartment);
+
+            return AppartmentProfile.ToAppartmentResponse(appartment);
         }
     }
 }
