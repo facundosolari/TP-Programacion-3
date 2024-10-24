@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
 
-namespace Application.Models.TenantModels.Response
+namespace Application.Models.TenantModels.Request
 {
-    public class TenantResponse
+    public class TenantRequest
     {
-        public string? Picture { get; set; }
+        public string? Photo { get; set; }
     }
 }

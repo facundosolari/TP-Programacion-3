@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
-using Contract.TenantModels.Request;
-using Contract.TenantModels.Response;
-using Contract.Mappings;
+using Application.Models.Mappings;
+using Application.Models.TenantModels.Request;
+using Application.Models.TenantModels.Response;
 using Domain.Interfaces;
 
 namespace Application.Services

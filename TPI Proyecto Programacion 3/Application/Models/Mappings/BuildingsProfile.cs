@@ -5,36 +5,37 @@ using System.Text;
 using System.Threading.Tasks;
 using Application.Models.BuildingModels.Request;
 using Application.Models.BuildingModels.Response;
-using Domain.Enum;
+using Domain.Entities;
 
 namespace Application.Models.Mappings;
 
 public static class BuildingsProfile
 {
-    public static Domain.Entities.Building ToBuildingEntity(BuildingRequest request)
+    public static Building ToBuildingEntity(BuildingRequest request)
     {
-        return new Domain.Entities.Building
+        return new Building
         {
+            BuildingId = request.BuildingId,
             Ubication = request.Ubication,
-            Id = request.Id,
-            Adress = request.Adress,         //en esto no deja poner los atributos privados del request del mismo
+            Adress = request.Adress,
             Garage = request.Garage,
             BackYard = request.BackYard,
             Rating = request.Rating,
-            OwnerId = request.OwnerId,
+            Appartments = request.Appartments,
         };
     }
 
-    public static BuildingResponse ToBuildingResponse(Domain.Entities.Building response)
+    public static BuildingResponse ToBuildingResponse(Building response)
     {
         return new BuildingResponse
         {
+            BuildingId = response.BuildingId,
             Ubication = response.Ubication,
-            Id = response.Id,
-            Adress = response.Adress,           //en esto no deja poner los atributos privados del request del mismo
+            Adress = response.Adress,
             Garage = response.Garage,
             BackYard = response.BackYard,
             Rating = response.Rating,
+            Appartments = response.Appartments,
         };
     }
 }
