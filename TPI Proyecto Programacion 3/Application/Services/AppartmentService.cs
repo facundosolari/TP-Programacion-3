@@ -10,10 +10,12 @@ namespace Application.Services
     public class AppartmentService : IAppartmentService
     {
         private readonly IAppartmentRepository _appartmentRepository;
+        private readonly IBuildingRepository _buildingRepository;
 
-        public AppartmentService(IAppartmentRepository appartmentRepository)
+        public AppartmentService(IAppartmentRepository appartmentRepository, IBuildingRepository buildingRepository)
         {
             _appartmentRepository = appartmentRepository;
+            _buildingRepository = buildingRepository;
         }
 
         public List<AppartmentResponse> GetAll()
@@ -50,18 +52,20 @@ namespace Application.Services
             return AppartmentProfile.ToAppartmentResponse(apparment);
         }
 
-        public AppartmentResponse Create(AppartmentRequest appartment)
+        public AppartmentResponse Create(CreateAppartmentRequest appartment)
         {
-            var oAppartment = AppartmentProfile.ToAppartmentEntity(appartment);
+            var building = _buildingRepository.GetById(appartment.BuildingId);
+            if (building == null) throw new Exception("Building inexistente");
+            var newAppartment = AppartmentProfile.ToAppartmentEntity(appartment, building);
 
-            if (oAppartment == null)
+            if (newAppartment == null)
             {
                 throw new Exception("Ocurrio un error al crear un nuevo departamento.");
             }
 
-            _appartmentRepository.Create(oAppartment);
+            _appartmentRepository.Create(newAppartment);
 
-            return AppartmentProfile.ToAppartmentResponse(oAppartment);
+            return AppartmentProfile.ToAppartmentResponse(newAppartment);
         }
 
         public AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment)

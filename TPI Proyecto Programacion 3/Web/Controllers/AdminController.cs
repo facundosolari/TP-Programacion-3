@@ -6,6 +6,7 @@ using Application.Models.AdminModels.Request;
 using Application.Interfaces;
 using Application.Services;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Web.Controllers
 {
@@ -22,6 +23,7 @@ namespace Web.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public ActionResult<List<AdminResponse>> GetAllAdmin()
         {
             try
@@ -37,6 +39,7 @@ namespace Web.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetAdminById([FromRoute] int id)
         {
             try
@@ -52,6 +55,7 @@ namespace Web.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult CreateAdmin([FromBody] AdminRequest admin)
         {
             try
@@ -67,6 +71,7 @@ namespace Web.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult UpdateAdmin([FromRoute] int id, [FromBody] AdminRequest admin)
         {
             try
@@ -82,6 +87,7 @@ namespace Web.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult DeleteAdmin([FromRoute] int id)
         {
             try

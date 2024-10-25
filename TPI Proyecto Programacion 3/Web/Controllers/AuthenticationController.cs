@@ -8,19 +8,17 @@ namespace Web.Controllers
     [ApiController]
     public class AuthenticationController : ControllerBase
     {
-        private readonly IConfiguration _config;
-        private readonly ICustomAuthenticationService _customAuthenticationService;
+        private readonly IAuthenticationService _customAuthenticationService;
 
-        public AuthenticationController(IConfiguration config, ICustomAuthenticationService authenticationService)
-        {
-            _config = config;
-            _customAuthenticationService = authenticationService;
+        public AuthenticationController(IAuthenticationService autenticacionService)
+        { 
+            _customAuthenticationService = autenticacionService;
         }
 
         [HttpPost("authenticate")]
         public IActionResult Authenticate([FromBody] CredentialsRequest credentials)
         {
-            string token = _customAuthenticationService.Autenticar(credentials);
+            string token = _customAuthenticationService.Authenticate(credentials);
 
             return Ok(token);
         }

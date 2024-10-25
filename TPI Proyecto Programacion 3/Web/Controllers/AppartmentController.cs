@@ -4,6 +4,7 @@ using Application.Models.AppartmentModels.Request;
 using Application.Models.AppartmentModels.Response;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -61,7 +62,8 @@ namespace Web.Controllers
 
 
         [HttpPost]
-        public IActionResult CreateAppartment([FromBody] AppartmentRequest appartment)
+        [Authorize(Roles = "Admin,Owner")]
+        public IActionResult CreateAppartment([FromBody] CreateAppartmentRequest appartment)
         {
 
             try
@@ -78,6 +80,7 @@ namespace Web.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Owner")]
         public ActionResult UpdateAppartment([FromRoute] int id, [FromBody] AppartmentRequest appartment)
         {
             try
@@ -94,6 +97,7 @@ namespace Web.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Owner")]
         public ActionResult DeleteAppartment([FromRoute] int id)
         {
             try

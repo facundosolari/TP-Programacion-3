@@ -1,11 +1,12 @@
 ﻿using Application.Models.AppartmentModels.Request;
 using Application.Models.AppartmentModels.Response;
+using Domain.Entities;
 
 namespace Application.Models.Mappings
 {
     public static class AppartmentProfile
     {
-        public static Domain.Entities.Appartment ToAppartmentEntity(AppartmentRequest request)
+        public static Domain.Entities.Appartment ToAppartmentEntity(CreateAppartmentRequest request, Building building)
         {
             return new Domain.Entities.Appartment()
             {
@@ -16,6 +17,8 @@ namespace Application.Models.Mappings
                 Pictures = request.Pictures,
                 Description = request.Description,
                 Price = request.Price,
+                BuildingId = request.BuildingId,
+                Building = building,
             };
         }
 
@@ -24,7 +27,10 @@ namespace Application.Models.Mappings
             appartment.Floor = request.Floor;
             appartment.Number = request.Number;
             appartment.Bathrooms = request.Bathrooms;
+            appartment.Rooms = request.Rooms;
+            appartment.Pictures = request.Pictures;
             appartment.Description = request.Description;
+            appartment.Price = request.Price;
         }
 
         public static AppartmentResponse ToAppartmentResponse(Domain.Entities.Appartment entity)

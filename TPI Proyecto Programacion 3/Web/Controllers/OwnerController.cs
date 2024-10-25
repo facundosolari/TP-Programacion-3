@@ -7,6 +7,7 @@ using Application.Interfaces;
 using Application.Services;
 using Application.Models.AppartmentModels.Request;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Web.Controllers
 {
@@ -23,6 +24,7 @@ namespace Web.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<OwnerResponse>> GetAllOwner()
         {
             try
@@ -38,6 +40,7 @@ namespace Web.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult GetOwnerById([FromRoute] int id)
         {
             try
@@ -68,6 +71,7 @@ namespace Web.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Owner")]
         public IActionResult UpdateOwner([FromRoute] int id, [FromBody] UpdateOwnerRequest owner)
         {
             try
@@ -83,6 +87,7 @@ namespace Web.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Owner")]
         public IActionResult DeleteOwner([FromRoute] int id)
         {
             try

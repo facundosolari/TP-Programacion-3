@@ -118,7 +118,7 @@
     "Parameters": [
       {
         "Name": "appartment",
-        "Type": "Application.Models.AppartmentModels.Request.AppartmentRequest",
+        "Type": "Application.Models.AppartmentModels.Request.CreateAppartmentRequest",
         "IsRequired": true
       }
     ],

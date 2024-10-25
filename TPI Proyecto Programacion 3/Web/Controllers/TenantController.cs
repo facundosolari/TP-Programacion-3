@@ -7,6 +7,7 @@ using Application.Interfaces;
 using Application.Services;
 using Application.Models.AppartmentModels.Request;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Web.Controllers
 {
@@ -23,6 +24,7 @@ namespace Web.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult<List<TenantResponse>> GetAllTenant()
         {
             try
@@ -38,6 +40,7 @@ namespace Web.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult GetTenantById([FromRoute] int id)
         {
             try
@@ -68,6 +71,7 @@ namespace Web.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Tenant")]
         public IActionResult UpdateTenant([FromRoute] int id, [FromBody] CreateTenantRequest tenant)
         {
             try
@@ -83,6 +87,7 @@ namespace Web.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Tenant")]
         public IActionResult DeleteTenant([FromRoute] int id)
         {
             try
@@ -98,6 +103,7 @@ namespace Web.Controllers
         }
 
         [HttpPost("tenant/{tenantId}/{appartmentId}")]
+        [Authorize(Roles = "Admin,Tenant")]
         public IActionResult AssignAppartmentToTenant([FromRoute] int tenantId, [FromRoute] int appartmentId)
         {
             try

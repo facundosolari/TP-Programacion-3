@@ -7,6 +7,8 @@ using Application.Interfaces;
 using Application.Services;
 using Application.Models.AppartmentModels.Request;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Web.Controllers
 {
@@ -53,6 +55,7 @@ namespace Web.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin,Owner")]
         public IActionResult CreateBuilding([FromBody] BuildingRequest building)
         {
             try
@@ -68,6 +71,7 @@ namespace Web.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Owner")]
         public IActionResult UpdateBuilding([FromRoute] int id, [FromBody] BuildingRequest building)
         {
             try
@@ -83,6 +87,7 @@ namespace Web.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Owner")]
         public IActionResult DeleteBuilding([FromRoute] int id)
         {
             try
@@ -98,6 +103,7 @@ namespace Web.Controllers
         }
 
         [HttpPost("building/{buildingId}/{appartmentId}")]
+        [Authorize(Roles = "Admin,Owner")]
         public IActionResult AssignAppartmentToBuilding([FromRoute] int buildingId, [FromRoute] int appartmentId)
         {
             try
