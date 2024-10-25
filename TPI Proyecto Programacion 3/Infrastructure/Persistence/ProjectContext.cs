@@ -47,5 +47,32 @@ public class ProjectContext : DbContext
         base.OnModelCreating(modelBuilder);
     }
 
+    public override int SaveChanges()
+    {
+        // Identificar departamentos (Appartments) que pierden a su Tenant
+        var apartmentsWithoutTenant = ChangeTracker.Entries<Appartment>()
+            .Where(e => e.State == EntityState.Modified && e.Entity.TenantId == null);
+
+        // Actualizar la propiedad IsAvailable a true en estos Appartments
+        foreach (var entry in apartmentsWithoutTenant)
+        {
+            entry.Entity.IsAvailable = true;
+        }
+
+        return base.SaveChanges();
+    }
+
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        var apartmentsWithoutTenant = ChangeTracker.Entries<Appartment>()
+            .Where(e => e.State == EntityState.Modified && e.Entity.TenantId == null);
+
+        foreach (var entry in apartmentsWithoutTenant)
+        {
+            entry.Entity.IsAvailable = true;
+        }
+
+        return await base.SaveChangesAsync(cancellationToken);
+    }
 
 }

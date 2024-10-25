@@ -19,6 +19,6 @@ namespace Domain.Entities
         public List<string> Pictures { get; set; } = new List<string>();
         public string Description { get; set; } = string.Empty; 
         public float Price { get; set; }
-        public bool IsAvailable { get; set; }
+        public bool IsAvailable { get; set; } = true;
     }
 }

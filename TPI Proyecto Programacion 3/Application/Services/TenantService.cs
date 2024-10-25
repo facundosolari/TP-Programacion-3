@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Application.Interfaces;
@@ -105,8 +106,30 @@ namespace Application.Services
                 throw new Exception("Apartamento no encontrado");
             }
 
+            if (tenantId == appartment.TenantId || appartmentId == tenant.AppartmentId) 
+            {
+                tenant.Appartment = null;
+                tenant.AppartmentId = null;
+                _appartmentRepository.UpdateAppartment(appartment);
+
+                appartment.Tenant = null;
+                appartment.TenantId = null;
+                _tenantRepository.UpdateTenant(tenant);
+
+                throw new Exception("Desasignacion completada");
+            }
+
+            if (!appartment.IsAvailable)
+            {
+                throw new Exception("Apartamento no disponible");
+            }
+
             tenant.Appartment = appartment;
             _tenantRepository.UpdateTenant(tenant);
+
+            appartment.IsAvailable = false;
+            appartment.Tenant = tenant;
+            _appartmentRepository.UpdateAppartment(appartment);
 
             return true;
         }
