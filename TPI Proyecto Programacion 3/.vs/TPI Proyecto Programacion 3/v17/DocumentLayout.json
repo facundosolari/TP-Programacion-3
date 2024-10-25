@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\",
+  "WorkspaceRootPath": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\appartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\appartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\infrastructure\\persistence\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\interfaces\\iappartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iappartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\models\\mappings\\appartmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\models\\mappings\\appartmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\application\\models\\mappings\\reservationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\models\\mappings\\reservationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\utn\\programacion iii\\tpi-programacion-iii\\tp-programacion-3\\tpi proyecto programacion 3\\application\\services\\buildingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\buildingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\application\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\web\\controllers\\reservatiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33F8F6D0-785F-456D-A770-FE0FD9F1C064}|Web\\Web.csproj|solutionrelative:web\\controllers\\reservatiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\application\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\infrastructure\\data\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799D8BBA-2FD3-4FF8-B148-2B2CC9E78AD1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E508AF-BBC0-4641-BAEF-C32BF48904B4}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\application\\models\\reservationmodels\\reservationresponse\\reservationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\models\\reservationmodels\\reservationresponse\\reservationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|c:\\users\\francisco\\desktop\\programacion 3\\tpi proyecto programacion 3\\application\\models\\reservationmodels\\reservationrequest\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4D0BF0-907C-47E9-9571-D0D4D7BFABEF}|Application\\Application.csproj|solutionrelative:application\\models\\reservationmodels\\reservationrequest\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +54,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppartmentController.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\AppartmentController.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Web\\Controllers\\AppartmentController.cs",
-              "RelativeToolTip": "Web\\Controllers\\AppartmentController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEEAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Infrastructure\\Persistence\\ProjectContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\ProjectContext.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Infrastructure\\Persistence\\ProjectContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\ProjectContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:53:18.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T05:19:15.69Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAppartmentService.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IAppartmentService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IAppartmentService.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IAppartmentService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IAppartmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:52:51.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T05:17:44.798Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppartmentProfile.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Models\\Mappings\\AppartmentProfile.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Mappings\\AppartmentProfile.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Models\\Mappings\\AppartmentProfile.cs",
-              "RelativeToolTip": "Application\\Models\\Mappings\\AppartmentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Title": "ReservationProfile.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Models\\Mappings\\ReservationProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Mappings\\ReservationProfile.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Models\\Mappings\\ReservationProfile.cs",
+              "RelativeToolTip": "Application\\Models\\Mappings\\ReservationProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:50:39.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppartmentService.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AppartmentService.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\AppartmentService.cs",
-              "RelativeToolTip": "Application\\Services\\AppartmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:42:49.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T05:16:41.435Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BuildingService.cs",
-              "DocumentMoniker": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\BuildingService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\BuildingService.cs",
-              "ToolTip": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Application\\Services\\BuildingService.cs",
-              "RelativeToolTip": "Application\\Services\\BuildingService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDoAAABRAAAAAAAAAA==",
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:42:32.397Z",
+              "WhenOpened": "2024-10-25T05:16:10.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReservatioController.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Web\\Controllers\\ReservatioController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ReservatioController.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Web\\Controllers\\ReservatioController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ReservatioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:13:37.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Services\\ReservationService.cs",
+              "RelativeToolTip": "Application\\Services\\ReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:12:15.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Infrastructure\\Data\\ReservationRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ReservationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:11:37.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Domain\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:10:54.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Models\\ReservationModels\\ReservationRequest\\ReservationRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\ReservationModels\\ReservationRequest\\ReservationRequest.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Models\\ReservationModels\\ReservationRequest\\ReservationRequest.cs",
+              "RelativeToolTip": "Application\\Models\\ReservationModels\\ReservationRequest\\ReservationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:08:58.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Models\\ReservationModels\\ReservationResponse\\ReservationResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\ReservationModels\\ReservationResponse\\ReservationResponse.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Application\\Models\\ReservationModels\\ReservationResponse\\ReservationResponse.cs",
+              "RelativeToolTip": "Application\\Models\\ReservationModels\\ReservationResponse\\ReservationResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:08:34.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Reservation.cs",
+              "ToolTip": "C:\\Users\\francisco\\Desktop\\Programacion 3\\TPI Proyecto Programacion 3\\Domain\\Entities\\Reservation.cs",
+              "RelativeToolTip": "Domain\\Entities\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T05:05:10.313Z",
               "EditorCaption": ""
             }
           ]

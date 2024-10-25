@@ -15,6 +15,7 @@ public class ProjectContext : DbContext
     public DbSet<Tenant> Tenants { get; set; }
     public DbSet<Admin> Admins { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<Reservation> Reservations { get; set; }
     public DbSet<Building> Buildings { get; set; }
     public DbSet<Appartment> Appartments { get; set; }
     public ProjectContext(DbContextOptions<ProjectContext> options) : base(options)
@@ -43,6 +44,16 @@ public class ProjectContext : DbContext
             .WithOne(t => t.Appartment)
             .HasForeignKey<Appartment>(a => a.TenantId)
             .OnDelete(DeleteBehavior.SetNull); // Si se elimina el Tenant, el departamento no se elimina, pero el TenantId queda en null.
+
+        modelBuilder.Entity<Reservation>()
+            .HasOne(r => r.Appartment)
+            .WithMany()
+            .HasForeignKey(r => r.AppartmentID);
+
+        modelBuilder.Entity<Reservation>()
+            .HasOne(r => r.Tenant)
+            .WithMany()
+            .HasForeignKey(r => r.TenantID);
 
         base.OnModelCreating(modelBuilder);
     }
