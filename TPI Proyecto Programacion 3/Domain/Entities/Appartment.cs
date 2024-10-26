@@ -8,11 +8,11 @@ namespace Domain.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public int? TenantId { get; set; } // Foreign Key para el Tenant
+        [ForeignKey("TenantId")]
+        public int? TenantId { get; set; } 
         public Tenant? Tenant { get; set; }
-        [Required]
-        public int BuildingId { get; set; } // Foreign Key para el Building
-        [Required]
+        [ForeignKey("BuildingId")]
+        public int BuildingId { get; set; } 
         public Building Building { get; set; }
         [Required]
         public int Floor { get; set; }

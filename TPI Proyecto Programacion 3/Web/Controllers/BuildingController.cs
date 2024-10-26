@@ -10,7 +10,6 @@ namespace Web.Controllers
     [ApiController]
     public class BuildingController : ControllerBase
     {
-        // Inyección de dependencia
         private readonly IBuildingService _buildingService;
 
         public BuildingController(IBuildingService buildingService)

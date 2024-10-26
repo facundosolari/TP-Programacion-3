@@ -1,10 +1,16 @@
-﻿namespace Application.Models.BuildingModels.Request
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Application.Models.BuildingModels.Request
 {
     public class BuildingRequest
     {
-        public string Ubication { get; set; } = string.Empty;
-        public string Adress { get; set; } = string.Empty;
+        [Required]
+        public string Ubication { get; set; }
+        [Required]
+        public string Adress { get; set; }
+        [Required]
         public bool Garage { get; set; }
+        [Required]
         public bool BackYard { get; set; }
         public int OwnerId { get; set; }
     }

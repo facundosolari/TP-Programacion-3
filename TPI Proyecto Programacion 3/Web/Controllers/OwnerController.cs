@@ -9,7 +9,6 @@ namespace Web.Controllers
     [ApiController]
     public class OwnerController : ControllerBase
     {
-        // inyeccion de dependencia 
         private readonly IOwnerService _ownerService;
 
         public OwnerController(IOwnerService ownerService)

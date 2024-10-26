@@ -12,18 +12,19 @@ namespace Domain.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        public string Ubication { get; set; } = string.Empty;
+        [Column(TypeName = "nvarchar(20)")]
+        public string Ubication { get; set; } 
         [Required]
-        public string Adress { get; set; } = string.Empty; 
+        [Column(TypeName = "nvarchar(50)")]
+        public string Adress { get; set; } 
         [Required]
         public bool Garage { get; set; }
         [Required]
         public bool BackYard { get; set; }
         public float Rating { get; set; } = 0;
-        public ICollection<Appartment>? Appartments { get; set; }
-        [Required]
-        public int OwnerId { get; set; } // Foreign Key para el Owner
-        [Required]
+        public List<Appartment>? Appartments { get; set; }
+        [ForeignKey("OwnerId")]
+        public int OwnerId { get; set; }
         public Owner Owner { get; set; }
 
 

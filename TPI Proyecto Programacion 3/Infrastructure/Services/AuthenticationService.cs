@@ -21,17 +21,16 @@ namespace Infrastructure.Services
             _options = options.Value;
         }
 
-        private User? ValidateUser(CredentialsRequest credentialsRequest) // Cambiado a CredentialsRequest
+        private User? ValidateUser(CredentialsRequest credentialsRequest) 
         {
             if (string.IsNullOrEmpty(credentialsRequest.Username) || string.IsNullOrEmpty(credentialsRequest.Password))
                 return null;
 
-            var user = _userRepository.GetUserByUsername(credentialsRequest.Username); // Asumiendo que tienes este método
+            var user = _userRepository.GetUserByUsername(credentialsRequest.Username); 
 
             if (user == null) return null;
 
-            // Aquí puedes incluir lógica de validación del tipo de usuario si es necesario
-            if (user.Password == credentialsRequest.Password) // Esto debería ser un método de comparación más seguro
+            if (user.Password == credentialsRequest.Password) 
             {
                 return user;
             }
@@ -39,7 +38,7 @@ namespace Infrastructure.Services
             return null;
         }
 
-        public string Authenticate(CredentialsRequest credentialsRequest) // Cambiado a CredentialsRequest
+        public string Authenticate(CredentialsRequest credentialsRequest) 
         {
             var user = ValidateUser(credentialsRequest);
 
@@ -75,6 +74,14 @@ namespace Infrastructure.Services
             var tokenToReturn = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
 
             return tokenToReturn.ToString();
+        }
+
+        public class AuthenticationServiceOptions
+        {
+            public const string AuthenticationService = "AuthenticationService";
+            public string Issuer { get; set; } 
+            public string Audience { get; set; } 
+            public string SecretForKey { get; set; } 
         }
     }
 }

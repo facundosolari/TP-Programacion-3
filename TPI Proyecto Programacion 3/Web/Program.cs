@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Application.Models.AuthenticationModels;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using static Infrastructure.Services.AuthenticationService;
 
 
 
@@ -33,7 +33,7 @@ builder.Services.AddSwaggerGen(setupAction =>
     {
         Type = SecuritySchemeType.Http,
         Scheme = "Bearer",
-        Description = "Pega el token o toka de aca."
+        Description = "Ingrese el token: "
     });
 
     setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -75,7 +75,7 @@ builder.Services.AddAuthentication("Bearer")
                     },
                     OnAuthenticationFailed = context =>
                     {
-                        context.Response.StatusCode = StatusCodes.Status401Unauthorized; 
+                        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                         context.Response.ContentType = "text/plain";
                         return context.Response.WriteAsync("Token no válido.");
                     }

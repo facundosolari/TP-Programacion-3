@@ -9,7 +9,6 @@ namespace Web.Controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
-        // inyeccion de dependencia 
         private readonly IAdminService _adminService;
 
         public AdminController(IAdminService adminService)

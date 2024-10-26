@@ -1,11 +1,18 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Application.Models.AdminModels
 {
     public class AdminRequest
     {
-        public string Username { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
-        public string Name { get; set; } = string.Empty;
-        public string Lastname { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
+        [Required]
+        public string Username { get; set; }
+        [Required]
+        public string Password { get; set; }
+        [Required]
+        public string Name { get; set; }
+        [Required]
+        public string Lastname { get; set; }
+        [Required]
+        public string Email { get; set; }
     }
 }

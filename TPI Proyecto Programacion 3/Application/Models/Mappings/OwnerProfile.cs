@@ -30,19 +30,6 @@ public static class OwnerProfile
         };
     }
 
-    public static OwnerRequest ToUpdateOwnerRequest(Owner entity)
-    {
-        return new OwnerRequest
-        {
-            Username = entity.Username,
-            Password = entity.Password,
-            Name = entity.Name,
-            Lastname = entity.Lastname,
-            Email = entity.Email,
-            Photo = entity.Photo,
-        };
-    }
-
     public static void ToOwnerUpdate(Owner owner, OwnerRequest request)
     {
         owner.Username = request.Username;

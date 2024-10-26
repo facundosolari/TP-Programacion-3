@@ -28,18 +28,6 @@ public static class AdminProfile
         };
     }
 
-    public static AdminRequest ToUpdateAdminRequest(Admin entity)
-    {
-        return new AdminRequest
-        {
-            Username = entity.Username,
-            Password = entity.Password,
-            Name = entity.Name,
-            Lastname = entity.Lastname,
-            Email = entity.Email,
-        };
-    }
-
     public static void ToAdminUpdate(Admin admin, AdminRequest request)
     {
         admin.Username = request.Username;

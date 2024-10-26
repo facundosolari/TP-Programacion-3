@@ -2,7 +2,7 @@
 {
     public class Owner : User
     {
-        public ICollection<Building>? Buildings { get; set; }
+        public List<Building>? Buildings { get; set; }
         public string? Photo { get; set; }
         public float? Rating { get; set; }
 

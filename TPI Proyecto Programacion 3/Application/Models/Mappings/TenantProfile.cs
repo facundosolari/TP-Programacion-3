@@ -30,19 +30,6 @@ public static class TenantProfile
         };
     }
 
-    public static TenantRequest ToUpdateTenantRequest(Tenant entity)
-    {
-        return new TenantRequest
-        {
-            Username = entity.Username,
-            Password = entity.Password,
-            Name = entity.Name,
-            Lastname = entity.Lastname,
-            Email = entity.Email,
-            Photo = entity.Photo,
-        };
-    }
-
     public static void ToTenantUpdate(Tenant tenant, TenantRequest request)
     {
         tenant.Username = request.Username;

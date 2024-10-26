@@ -4,7 +4,6 @@ using Application.Models.AppartmentModels.Response;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Web.Controllers
 {
@@ -19,8 +18,6 @@ namespace Web.Controllers
             _appartmentService = appartmentService;
         }
 
-
-        // GET: api/<Appartment>
         [HttpGet]
         public ActionResult<List<AppartmentResponse>> GetAllAppartments()
         {

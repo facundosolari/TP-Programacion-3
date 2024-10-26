@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Application.Models.AdminModels.Response.AdminResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.AdminModels.AdminResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "admin",
-        "Type": "Application.Models.AdminModels.Request.AdminRequest",
+        "Type": "Application.Models.AdminModels.AdminRequest",
         "IsRequired": true
       }
     ],
@@ -66,7 +66,7 @@
       },
       {
         "Name": "admin",
-        "Type": "Application.Models.AdminModels.Request.AdminRequest",
+        "Type": "Application.Models.AdminModels.AdminRequest",
         "IsRequired": true
       }
     ],
@@ -118,7 +118,7 @@
     "Parameters": [
       {
         "Name": "appartment",
-        "Type": "Application.Models.AppartmentModels.Request.CreateAppartmentRequest",
+        "Type": "Application.Models.AppartmentModels.Request.AppartmentRequest",
         "IsRequired": true
       }
     ],
@@ -313,7 +313,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Application.Models.OwnerModels.Response.OwnerResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.OwnerModels.OwnerResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -333,7 +333,7 @@
     "Parameters": [
       {
         "Name": "owner",
-        "Type": "Application.Models.OwnerModels.Request.CreateOwnerRequest",
+        "Type": "Application.Models.OwnerModels.OwnerRequest",
         "IsRequired": true
       }
     ],
@@ -370,7 +370,7 @@
       },
       {
         "Name": "owner",
-        "Type": "Application.Models.OwnerModels.Request.UpdateOwnerRequest",
+        "Type": "Application.Models.OwnerModels.OwnerRequest",
         "IsRequired": true
       }
     ],
@@ -407,7 +407,7 @@
       },
       {
         "Name": "request",
-        "Type": "Application.Models.ReservationModels.ReservationRequest.ReservationRequest",
+        "Type": "Application.Models.ReservationModels.ReservationRequest",
         "IsRequired": true
       }
     ],
@@ -428,7 +428,7 @@
       },
       {
         "Name": "request",
-        "Type": "Application.Models.ReservationModels.ReservationRequest.ReservationRequest",
+        "Type": "Application.Models.ReservationModels.ReservationRequest",
         "IsRequired": true
       }
     ],
@@ -444,7 +444,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Application.Models.TenantModels.Response.TenantResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Application.Models.TenantModels.TenantResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -464,7 +464,7 @@
     "Parameters": [
       {
         "Name": "tenant",
-        "Type": "Application.Models.TenantModels.Request.CreateTenantRequest",
+        "Type": "Application.Models.TenantModels.TenantRequest",
         "IsRequired": true
       }
     ],
@@ -501,7 +501,7 @@
       },
       {
         "Name": "tenant",
-        "Type": "Application.Models.TenantModels.Request.CreateTenantRequest",
+        "Type": "Application.Models.TenantModels.TenantRequest",
         "IsRequired": true
       }
     ],

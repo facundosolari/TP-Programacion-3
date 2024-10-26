@@ -5,7 +5,6 @@ namespace Contract.Mappings
 {
     public static class ReservationProfile
     {
-        // Convierte de ReservationRequest a la entidad Reservation
         public static Reservation ToReservationEntity(int id, ReservationRequest request)
         {
             return new Reservation
@@ -13,11 +12,10 @@ namespace Contract.Mappings
                 AppartmentID = id,
                 TenantID = request.TenantID,
                 VisitDate = request.VisitDate,
-                Status = "Reserved" // Estado por defecto
+                Status = "Reserved" 
             };
         }
 
-        // Convierte de la entidad Reservation a ReservationResponse
         public static ReservationResponse ToReservationResponse(Reservation reservation)
         {
             return new ReservationResponse

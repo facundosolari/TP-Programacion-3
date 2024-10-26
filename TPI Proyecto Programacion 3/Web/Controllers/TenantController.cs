@@ -9,7 +9,6 @@ namespace Web.Controllers
     [ApiController]
     public class TenantController : ControllerBase
     {
-        // inyeccion de dependencia 
         private readonly ITenantService _tenantService;
 
         public TenantController(ITenantService tenantService)
