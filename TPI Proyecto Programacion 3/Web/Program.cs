@@ -10,7 +10,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Application.Models.AuthenticationModels;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using System.Text.Json;
 
 
 

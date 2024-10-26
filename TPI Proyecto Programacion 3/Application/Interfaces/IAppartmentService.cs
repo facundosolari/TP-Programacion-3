@@ -5,7 +5,7 @@ namespace Application.Interfaces
 {
     public interface IAppartmentService
     {
-        AppartmentResponse Create(CreateAppartmentRequest appartment);
+        AppartmentResponse Create(AppartmentRequest appartment);
         List<AppartmentResponse> GetAll();
         AppartmentResponse? GetById(int id);
         AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment);

@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 using Application.Interfaces;
 using Application.Models.Mappings;
 using Application.Models.BuildingModels.Request;
 using Application.Models.BuildingModels.Response;
-using Domain.Entities;
 using Domain.Interfaces;
 
 namespace Application.Services

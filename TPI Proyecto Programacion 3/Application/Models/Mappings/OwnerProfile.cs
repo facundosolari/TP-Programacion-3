@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities;
-using Application.Models.OwnerModels.Response;
-using Application.Models.OwnerModels.Request;
+﻿using Domain.Entities;
+using Application.Models.OwnerModels;
 
 namespace Application.Models.Mappings;
 
 public static class OwnerProfile
 {
-    public static Owner ToOwnerEntity(CreateOwnerRequest request)
+    public static Owner ToOwnerEntity(OwnerRequest request)
     {
         return new Owner
         {
@@ -36,9 +30,9 @@ public static class OwnerProfile
         };
     }
 
-    public static UpdateOwnerRequest ToUpdateOwnerRequest(Owner entity)
+    public static OwnerRequest ToUpdateOwnerRequest(Owner entity)
     {
-        return new UpdateOwnerRequest
+        return new OwnerRequest
         {
             Username = entity.Username,
             Password = entity.Password,
@@ -49,7 +43,7 @@ public static class OwnerProfile
         };
     }
 
-    public static void ToOwnerUpdate(Owner owner, UpdateOwnerRequest request)
+    public static void ToOwnerUpdate(Owner owner, OwnerRequest request)
     {
         owner.Username = request.Username;
         owner.Password = request.Password;

@@ -1,9 +1,7 @@
 ﻿using Application.Interfaces;
-using Application.Services;
-using Application.Models;
 using Microsoft.AspNetCore.Mvc;
-using Application.Models.ReservationModels.ReservationRequest;
 using Microsoft.AspNetCore.Authorization;
+using Application.Models.ReservationModels;
 
 namespace Web.Controllers
 {
@@ -19,7 +17,7 @@ namespace Web.Controllers
         }
 
         [HttpPost("departamento/{id}")]
-        [Authorize(Roles = "Tenant")]
+        [Authorize(Roles = "Admin,Tenant")]
         public IActionResult CreateReservation([FromRoute] int id, [FromBody] ReservationRequest request)
         {
             try

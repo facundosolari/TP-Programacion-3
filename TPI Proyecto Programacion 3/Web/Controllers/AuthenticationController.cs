@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Application.Models.AuthenticationModels;
 using Application.Interfaces;
-using System.Security.Authentication;
 
 namespace Web.Controllers
 {

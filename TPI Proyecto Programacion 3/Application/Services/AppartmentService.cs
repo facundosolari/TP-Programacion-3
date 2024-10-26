@@ -3,7 +3,6 @@ using Application.Models.Mappings;
 using Application.Models.AppartmentModels.Request;
 using Application.Models.AppartmentModels.Response;
 using Domain.Interfaces;
-using Domain.Entities;
 
 namespace Application.Services
 {
@@ -54,7 +53,7 @@ namespace Application.Services
             return AppartmentProfile.ToAppartmentResponse(apparment);
         }
 
-        public AppartmentResponse Create(CreateAppartmentRequest appartment)
+        public AppartmentResponse Create(AppartmentRequest appartment)
         {
             var building = _buildingRepository.GetById(appartment.BuildingId);
             if (building == null) throw new Exception("Building inexistente");

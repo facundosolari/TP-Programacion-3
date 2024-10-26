@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 using Application.Interfaces;
 using Application.Models.Mappings;
-using Application.Models.OwnerModels.Request;
-using Application.Models.OwnerModels.Response;
-using Domain.Entities;
+using Application.Models.OwnerModels;
 using Domain.Interfaces;
 
 namespace Application.Services
@@ -50,7 +43,7 @@ namespace Application.Services
             return OwnerProfile.ToOwnerResponse(owner);
         }
 
-        public OwnerResponse Create(CreateOwnerRequest owner)
+        public OwnerResponse Create(OwnerRequest owner)
         {
             var newOwner = OwnerProfile.ToOwnerEntity(owner);
 
@@ -63,7 +56,7 @@ namespace Application.Services
             return OwnerProfile.ToOwnerResponse(newOwner);
         }
 
-        public OwnerResponse UpdateOwner(int id, UpdateOwnerRequest updatedOwner)
+        public OwnerResponse UpdateOwner(int id, OwnerRequest updatedOwner)
         {
             var owner = _ownerRepository.GetById(id);
 

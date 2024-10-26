@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Entities;
-using Application.Models.TenantModels.Response;
-using Application.Models.TenantModels.Request;
+﻿using Domain.Entities;
+using Application.Models.TenantModels;
 
 namespace Application.Models.Mappings;
 
 public static class TenantProfile
 {
-    public static Tenant ToTenantEntity(CreateTenantRequest request)
+    public static Tenant ToTenantEntity(TenantRequest request)
     {
         return new Tenant
         {
@@ -36,9 +30,9 @@ public static class TenantProfile
         };
     }
 
-    public static CreateTenantRequest ToUpdateTenantRequest(Tenant entity)
+    public static TenantRequest ToUpdateTenantRequest(Tenant entity)
     {
-        return new CreateTenantRequest
+        return new TenantRequest
         {
             Username = entity.Username,
             Password = entity.Password,
@@ -49,7 +43,7 @@ public static class TenantProfile
         };
     }
 
-    public static void ToTenantUpdate(Tenant tenant, CreateTenantRequest request)
+    public static void ToTenantUpdate(Tenant tenant, TenantRequest request)
     {
         tenant.Username = request.Username;
         tenant.Password = request.Password;

@@ -1,6 +1,4 @@
-﻿using Domain.Entities;
-
-namespace Application.Models.AppartmentModels.Response
+﻿namespace Application.Models.AppartmentModels.Response
 {
     public class AppartmentResponse
     {

@@ -1,12 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Application.Interfaces;
 using Application.Models.Mappings;
-using Application.Models.AdminModels.Request;
-using Application.Models.AdminModels.Response;
-using Domain.Entities;
 using Domain.Interfaces;
+using Application.Models.AdminModels;
 
 namespace Application.Services
 {

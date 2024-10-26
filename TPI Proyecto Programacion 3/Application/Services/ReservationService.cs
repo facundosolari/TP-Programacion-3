@@ -1,9 +1,7 @@
 ﻿using Application.Interfaces;
-using Application.Models.ReservationModels.ReservationResponse;
-using Application.Models.ReservationModels.ReservationRequest;
-using Domain.Entities;
 using Domain.Interfaces;
 using Contract.Mappings;
+using Application.Models.ReservationModels;
 
 namespace Application.Services
 {

@@ -1,5 +1,4 @@
-﻿using Application.Models.ReservationModels.ReservationRequest;
-using Application.Models.ReservationModels.ReservationResponse;
+﻿using Application.Models.ReservationModels;
 using Domain.Entities;
 
 namespace Contract.Mappings

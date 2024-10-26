@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 using Application.Interfaces;
 using Application.Models.Mappings;
-using Application.Models.TenantModels.Request;
-using Application.Models.TenantModels.Response;
-using Domain.Entities;
+using Application.Models.TenantModels;
 using Domain.Interfaces;
 
 namespace Application.Services
@@ -51,7 +43,7 @@ namespace Application.Services
             return TenantProfile.ToTenantResponse(tenant);
         }
 
-        public TenantResponse Create(CreateTenantRequest tenant)
+        public TenantResponse Create(TenantRequest tenant)
         {
             var newTenant = TenantProfile.ToTenantEntity(tenant);
 
@@ -64,7 +56,7 @@ namespace Application.Services
             return TenantProfile.ToTenantResponse(newTenant);
         }
 
-        public TenantResponse UpdateTenant(int id, CreateTenantRequest updatedTenant)
+        public TenantResponse UpdateTenant(int id, TenantRequest updatedTenant)
         {
             var tenant = _tenantRepository.GetById(id);
 
@@ -125,10 +117,12 @@ namespace Application.Services
             }
 
             tenant.Appartment = appartment;
+            tenant.AppartmentId = appartmentId;
             _tenantRepository.UpdateTenant(tenant);
 
             appartment.IsAvailable = false;
             appartment.Tenant = tenant;
+            appartment.TenantId = tenantId;
             _appartmentRepository.UpdateAppartment(appartment);
 
             return true;

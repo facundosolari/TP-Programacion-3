@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+    "C:\\Users\\francisco\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\francisco\\Desktop\\TUP\\TUP 3C\\programacion 3\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\UTN\\Programacion III\\TPI-programacion-III\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\francisco\\Desktop\\TUP\\TUP 3C\\programacion 3\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\francisco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\francisco\\Desktop\\TUP\\TUP 3C\\programacion 3\\TP-Programacion-3\\TPI Proyecto Programacion 3\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\francisco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

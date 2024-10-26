@@ -1,6 +1,5 @@
 using Domain.Entities;
-using Application.Models.AdminModels.Request;
-using Application.Models.AdminModels.Response;
+using Application.Models.AdminModels;
 
 namespace Application.Models.Mappings;
 

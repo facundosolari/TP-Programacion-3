@@ -6,9 +6,9 @@ namespace Application.Models.Mappings
 {
     public static class AppartmentProfile
     {
-        public static Domain.Entities.Appartment ToAppartmentEntity(CreateAppartmentRequest request, Building building)
+        public static Appartment ToAppartmentEntity(AppartmentRequest request, Building building)
         {
-            return new Domain.Entities.Appartment()
+            return new Appartment()
             {
                 Floor = request.Floor,
                 Number = request.Number,
@@ -22,7 +22,7 @@ namespace Application.Models.Mappings
             };
         }
 
-        public static void ToAppartmentEntityUpdate(Domain.Entities.Appartment appartment, AppartmentRequest request)
+        public static void ToAppartmentEntityUpdate(Appartment appartment, AppartmentRequest request)
         {
             appartment.Floor = request.Floor;
             appartment.Number = request.Number;
@@ -33,7 +33,7 @@ namespace Application.Models.Mappings
             appartment.Price = request.Price;
         }
 
-        public static AppartmentResponse ToAppartmentResponse(Domain.Entities.Appartment entity)
+        public static AppartmentResponse ToAppartmentResponse(Appartment entity)
         {
             return new AppartmentResponse
             {

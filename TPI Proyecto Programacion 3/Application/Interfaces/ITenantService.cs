@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.Models.TenantModels.Request;
-using Application.Models.TenantModels.Response;
+﻿using Application.Models.TenantModels;
 
 namespace Application.Interfaces;
 
@@ -12,8 +6,8 @@ public interface ITenantService
 {
     List<TenantResponse> GetAll();
     TenantResponse GetById(int id);
-    TenantResponse Create(CreateTenantRequest tenant);
-    TenantResponse UpdateTenant(int id, CreateTenantRequest tenant);
+    TenantResponse Create(TenantRequest tenant);
+    TenantResponse UpdateTenant(int id, TenantRequest tenant);
     TenantResponse DeleteTenant(int id);
     bool AssignAppartmentToTenant(int tenantId, int appartmentId);
 }

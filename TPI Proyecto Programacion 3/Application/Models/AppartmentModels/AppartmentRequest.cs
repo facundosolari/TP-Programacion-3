@@ -1,6 +1,4 @@
-﻿using Domain.Entities;
-
-namespace Application.Models.AppartmentModels.Request
+﻿namespace Application.Models.AppartmentModels.Request
 {
     public class AppartmentRequest
     {
@@ -11,5 +9,6 @@ namespace Application.Models.AppartmentModels.Request
         public List<string> Pictures { get; set; } = new List<string>();
         public string Description { get; set; } = string.Empty;
         public float Price { get; set; }
+        public int BuildingId { get; set; }
     }
 }

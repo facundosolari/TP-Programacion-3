@@ -1,13 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Domain.Entities;
-using Application.Models.TenantModels.Response;
-using Application.Models.TenantModels.Request;
+﻿using Microsoft.AspNetCore.Mvc;
 using Application.Interfaces;
-using Application.Services;
-using Application.Models.AppartmentModels.Request;
-using System.Linq.Expressions;
 using Microsoft.AspNetCore.Authorization;
+using Application.Models.TenantModels;
 
 namespace Web.Controllers
 {
@@ -56,7 +50,7 @@ namespace Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateTenant([FromBody] CreateTenantRequest tenant)
+        public IActionResult CreateTenant([FromBody] TenantRequest tenant)
         {
             try
             {
@@ -72,7 +66,7 @@ namespace Web.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin,Tenant")]
-        public IActionResult UpdateTenant([FromRoute] int id, [FromBody] CreateTenantRequest tenant)
+        public IActionResult UpdateTenant([FromRoute] int id, [FromBody] TenantRequest tenant)
         {
             try
             {

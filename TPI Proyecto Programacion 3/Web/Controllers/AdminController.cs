@@ -1,12 +1,7 @@
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Domain.Entities;
-using Application.Models.AdminModels.Response;
-using Application.Models.AdminModels.Request;
 using Application.Interfaces;
-using Application.Services;
-using System.Linq.Expressions;
 using Microsoft.AspNetCore.Authorization;
+using Application.Models.AdminModels;
 
 namespace Web.Controllers
 {

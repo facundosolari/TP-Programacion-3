@@ -1,8 +1,6 @@
 ﻿using Application.Interfaces;
-using Application.Services;
 using Application.Models.AppartmentModels.Request;
 using Application.Models.AppartmentModels.Response;
-using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
@@ -63,7 +61,7 @@ namespace Web.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Admin,Owner")]
-        public IActionResult CreateAppartment([FromBody] CreateAppartmentRequest appartment)
+        public IActionResult CreateAppartment([FromBody] AppartmentRequest appartment)
         {
 
             try
@@ -112,7 +110,9 @@ namespace Web.Controllers
             }
         }
 
+
         [HttpPost("{id}/calificar")]
+        [Authorize(Roles = "Admin,Tenant")]
         public IActionResult AddRating(int id, [FromBody] RatingRequest ratingRequest)
         {
             try
@@ -127,4 +127,3 @@ namespace Web.Controllers
         }
     }
 }
-

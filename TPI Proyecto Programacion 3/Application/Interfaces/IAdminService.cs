@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.Models.AdminModels.Request;
-using Application.Models.AdminModels.Response;
+using Application.Models.AdminModels;
 
 namespace Application.Interfaces;
 

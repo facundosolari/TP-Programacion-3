@@ -1,13 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Domain.Entities;
-using Application.Models.OwnerModels.Response;
-using Application.Models.OwnerModels.Request;
+﻿using Microsoft.AspNetCore.Mvc;
 using Application.Interfaces;
-using Application.Services;
-using Application.Models.AppartmentModels.Request;
-using System.Linq.Expressions;
 using Microsoft.AspNetCore.Authorization;
+using Application.Models.OwnerModels;
 
 namespace Web.Controllers
 {
@@ -56,7 +50,7 @@ namespace Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOwner([FromBody] CreateOwnerRequest owner)
+        public IActionResult CreateOwner([FromBody] OwnerRequest owner)
         {
             try
             {
@@ -72,7 +66,7 @@ namespace Web.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin,Owner")]
-        public IActionResult UpdateOwner([FromRoute] int id, [FromBody] UpdateOwnerRequest owner)
+        public IActionResult UpdateOwner([FromRoute] int id, [FromBody] OwnerRequest owner)
         {
             try
             {
