@@ -15,6 +15,5 @@ namespace Application.Models.OwnerModels.Request
         public string Lastname { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string? Photo { get; set; }
-        public int? Rating { get; set; }
     }
 }

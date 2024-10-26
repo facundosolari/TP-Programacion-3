@@ -18,7 +18,7 @@ namespace Application.Services
         private readonly IOwnerRepository _ownerRepository;
         private readonly IBuildingRepository _buildingRepository;
 
-        public OwnerService(IOwnerRepository ownerRepository, IBuildingRepository buildingRepository)
+        public OwnerService(IOwnerRepository ownerRepository, IBuildingRepository buildingRepository, IAppartmentRepository appartmentRepository)
         {
             _ownerRepository = ownerRepository;
             _buildingRepository = buildingRepository;
@@ -91,29 +91,23 @@ namespace Application.Services
             return OwnerProfile.ToOwnerResponse(owner);
         }
 
-        public bool AssignBuildingToOwner(int ownerId, int buildingId)
+        public float CalculateOwnerRating(int ownerId)
         {
             var owner = _ownerRepository.GetById(ownerId);
-            if (owner == null)
-            {
-                throw new Exception("Propietario no encontrado");
-            }
+            if (owner == null) throw new Exception("Propietario no encontrado");
 
-            var building = _buildingRepository.GetById(buildingId);
-            if (building == null)
-            {
-                throw new Exception("Edificio no encontrado");
-            }
+            var buildings = _buildingRepository.GetAll()
+                .Where(b => b.OwnerId == ownerId)
+                .ToList();
 
-            if (owner.Buildings == null)
-            {
-                owner.Buildings = new List<Building>();
-            }
-            owner.Buildings.Add(building);
+            if (buildings.Count == 0) return 0;
 
-            _ownerRepository.UpdateOwner(owner);
+            var totalRating = buildings.Sum(b => b.Rating);
 
-            return true;
+            float averageRating = totalRating / buildings.Count;
+
+
+            return (float)Math.Round(averageRating, 1);
         }
     }
 }

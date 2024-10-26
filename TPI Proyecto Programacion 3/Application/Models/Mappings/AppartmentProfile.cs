@@ -42,6 +42,8 @@ namespace Application.Models.Mappings
                 Bathrooms = entity.Bathrooms,
                 Rooms = entity.Rooms,
                 Description = entity.Description,
+                Price = entity.Price,
+                Rating = entity.Rating,
             };
         }
     }

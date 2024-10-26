@@ -111,6 +111,20 @@ namespace Web.Controllers
                 return NotFound(e.Message);
             }
         }
+
+        [HttpPost("{id}/calificar")]
+        public IActionResult AddRating(int id, [FromBody] RatingRequest ratingRequest)
+        {
+            try
+            {
+                _appartmentService.AddRating(id, ratingRequest);
+                return Ok("Departamento calificado correctamente.");
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }
 

@@ -10,5 +10,6 @@ namespace Application.Interfaces
         AppartmentResponse? GetById(int id);
         AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment);
         AppartmentResponse DeleteAppartment(int id);
+        bool AddRating(int id, RatingRequest ratingRequest);
     }
 }

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Entities\NewFile1.txt" />
+    <None Remove="Interfaces\NewFile1.txt" />
+  </ItemGroup>
+
 </Project>

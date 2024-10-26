@@ -11,11 +11,13 @@ namespace Application.Services
     {
         private readonly IAppartmentRepository _appartmentRepository;
         private readonly IBuildingRepository _buildingRepository;
+        private readonly IOwnerRepository _ownerRepository;
 
-        public AppartmentService(IAppartmentRepository appartmentRepository, IBuildingRepository buildingRepository)
+        public AppartmentService(IAppartmentRepository appartmentRepository, IBuildingRepository buildingRepository, IOwnerRepository ownerRepository)
         {
             _appartmentRepository = appartmentRepository;
             _buildingRepository = buildingRepository;
+            _ownerRepository = ownerRepository;
         }
 
         public List<AppartmentResponse> GetAll()
@@ -98,6 +100,31 @@ namespace Application.Services
             _appartmentRepository.DeleteAppartment(appartment);
 
             return AppartmentProfile.ToAppartmentResponse(appartment);
+        }
+
+        public bool AddRating(int id, RatingRequest ratingRequest)
+        {
+            var appartment = _appartmentRepository.GetById(id);
+            if (appartment == null) throw new Exception("Departamento no encontrado");
+
+            if (appartment.TenantId != ratingRequest.TenantId) throw new Exception("No tenés permisos para calificar este departamento.");
+
+            if (!appartment.AddRating(ratingRequest.Rating)) throw new Exception("Calificacion inválida");
+
+            var building = _buildingRepository.GetById(appartment.BuildingId);
+            if (building == null) throw new Exception("Edificio no encontrado");
+            
+            building.UpdateAverageRating();
+            _buildingRepository.UpdateBuilding(building);
+
+            var owner = _ownerRepository.GetById(building.OwnerId);
+            if (owner == null) throw new Exception("Edificio no encontrado");
+
+            owner.UpdateAverageRating();
+            _ownerRepository.UpdateOwner(owner);
+
+            _appartmentRepository.UpdateAppartment(appartment); 
+            return true;
         }
     }
 }

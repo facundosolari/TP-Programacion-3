@@ -1,14 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Domain.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
 using Application.Models.BuildingModels.Response;
 using Application.Models.BuildingModels.Request;
 using Application.Interfaces;
-using Application.Services;
-using Application.Models.AppartmentModels.Request;
-using System.Linq.Expressions;
 using Microsoft.AspNetCore.Authorization;
-using System.Security.Claims;
 
 namespace Web.Controllers
 {
@@ -101,22 +95,5 @@ namespace Web.Controllers
                 return NotFound(e.Message);
             }
         }
-
-        [HttpPost("building/{buildingId}/{appartmentId}")]
-        [Authorize(Roles = "Admin,Owner")]
-        public IActionResult AssignAppartmentToBuilding([FromRoute] int buildingId, [FromRoute] int appartmentId)
-        {
-            try
-            {
-                var response = _buildingService.AssignAppartmentToBuilding(buildingId, appartmentId);
-                return Ok("Asignación correcta");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                return NotFound(e.Message);
-            }
-        }
-
     }
 }

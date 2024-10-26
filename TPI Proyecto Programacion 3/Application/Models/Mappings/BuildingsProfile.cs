@@ -20,7 +20,6 @@ public static class BuildingsProfile
             Adress = request.Adress,
             Garage = request.Garage,
             BackYard = request.BackYard,
-            Rating = request.Rating,
             OwnerId = request.OwnerId,
             Owner = owner,
         };
@@ -44,6 +43,5 @@ public static class BuildingsProfile
         building.Adress = request.Adress;
         building.Garage = request.Garage;
         building.BackYard = request.BackYard;
-        building.Rating = request.Rating;
     }
 }

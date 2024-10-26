@@ -101,21 +101,5 @@ namespace Web.Controllers
                 return NotFound(e.Message);
             }
         }
-
-        [HttpPost("owner/{ownerId}/{buildingId}")]
-        public IActionResult AssignBuildingToOwner([FromRoute] int ownerId, [FromRoute] int buildingId)
-        {
-            try
-            {
-                var response = _ownerService.AssignBuildingToOwner(ownerId, buildingId);
-                return Ok("Asignación correcta");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                return NotFound(e.Message);
-            }; 
-        }
-
     }
 }

@@ -95,29 +95,6 @@ namespace Application.Services
             return BuildingsProfile.ToBuildingResponse(building);
         }
 
-        public bool AssignAppartmentToBuilding(int buildingId, int appartmentId)
-        {
-            var building = _buildingRepository.GetById(buildingId);
-            if (building == null)
-            {
-                throw new Exception("Edificio no encontrado");
-            }
 
-            var appartment = _appartmentRepository.GetById(appartmentId);
-            if (appartment == null)
-            {
-                throw new Exception("Apartamento no encontrado");
-            }
-
-            if (building.Appartments == null)
-            {
-                building.Appartments = new List<Appartment>();
-            }
-            building.Appartments.Add(appartment);
-
-            _buildingRepository.UpdateBuilding(building);
-
-            return true;
-        }
     }
 }

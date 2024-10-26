@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Application.Models.AuthenticationModels;
 using Application.Interfaces;
+using System.Security.Authentication;
 
 namespace Web.Controllers
 {
@@ -18,9 +19,17 @@ namespace Web.Controllers
         [HttpPost("authenticate")]
         public IActionResult Authenticate([FromBody] CredentialsRequest credentials)
         {
-            string token = _customAuthenticationService.Authenticate(credentials);
+            try
+            {
+                string token = _customAuthenticationService.Authenticate(credentials);
 
-            return Ok(token);
+                return Ok(token);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return NotFound(e.Message);
+            }
         }
     }
 }

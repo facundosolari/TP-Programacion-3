@@ -15,5 +15,5 @@ public interface IOwnerService
     OwnerResponse Create(CreateOwnerRequest owner);
     OwnerResponse UpdateOwner(int id, UpdateOwnerRequest owner);
     OwnerResponse DeleteOwner(int id);
-    bool AssignBuildingToOwner(int ownerId, int buildingId);
+    float CalculateOwnerRating(int ownerId);
 }

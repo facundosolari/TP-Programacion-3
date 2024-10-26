@@ -102,7 +102,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPost("tenant/{tenantId}/{appartmentId}")]
+        [HttpPatch("tenant/{tenantId}/{appartmentId}")]
         [Authorize(Roles = "Admin,Tenant")]
         public IActionResult AssignAppartmentToTenant([FromRoute] int tenantId, [FromRoute] int appartmentId)
         {
@@ -117,6 +117,5 @@ namespace Web.Controllers
                 return NotFound(e.Message);
             };
         }
-
     }
 }

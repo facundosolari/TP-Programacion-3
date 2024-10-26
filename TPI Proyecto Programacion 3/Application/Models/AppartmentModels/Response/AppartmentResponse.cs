@@ -11,5 +11,6 @@ namespace Application.Models.AppartmentModels.Response
         public List<string> Pictures { get; set; } = new List<string>();
         public string Description { get; set; } = string.Empty;
         public float Price { get; set; }
+        public float Rating { get; set; }
     }
 }

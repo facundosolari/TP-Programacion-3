@@ -46,7 +46,7 @@ namespace Infrastructure.Services
 
             if (user == null)
             {
-                throw new Exception("User authentication failed");
+                throw new Exception("Usuario incorrecto");
             }
 
             // Crear el token
