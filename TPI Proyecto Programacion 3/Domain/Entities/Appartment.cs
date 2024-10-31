@@ -28,21 +28,12 @@ namespace Domain.Entities
         [Required]
         public float Price { get; set; }
         public bool IsAvailable { get; set; } = true;
-        public float Rating { get; set; } = 0;
+        public List<Rating> Ratings { get; set; } = new List<Rating>(); 
+        public float Rating { get; set; }
 
-        private int _ratingCount = 0;
-        private int _ratingSum = 0;
-
-
-        public bool AddRating(int rating)
+        public bool AddRating(Rating rating)
         {
-            if (rating < 1 || rating > 5) return false;
-
-            _ratingSum += rating; 
-            _ratingCount++;
-
-            Rating = _ratingCount == 0 ? 0 : (float)_ratingSum / _ratingCount;
-
+            Ratings.Add(rating);
             return true;
         }
     }

@@ -83,24 +83,5 @@ namespace Application.Services
             _ownerRepository.DeleteOwner(owner);
             return OwnerProfile.ToOwnerResponse(owner);
         }
-
-        public float CalculateOwnerRating(int ownerId)
-        {
-            var owner = _ownerRepository.GetById(ownerId);
-            if (owner == null) throw new Exception("Propietario no encontrado");
-
-            var buildings = _buildingRepository.GetAll()
-                .Where(b => b.OwnerId == ownerId)
-                .ToList();
-
-            if (buildings.Count == 0) return 0;
-
-            var totalRating = buildings.Sum(b => b.Rating);
-
-            float averageRating = totalRating / buildings.Count;
-
-
-            return (float)Math.Round(averageRating, 1);
-        }
     }
 }

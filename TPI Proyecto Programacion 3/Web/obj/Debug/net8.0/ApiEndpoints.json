@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "Web.Controllers.TenantController",
+    "Method": "AssignAppartmentToTenant",
+    "RelativePath": "{tenantId}/{appartmentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "appartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.AdminController",
     "Method": "GetAllAdmin",
     "RelativePath": "api/Admin",
@@ -172,27 +193,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.Controllers.AppartmentController",
-    "Method": "AddRating",
-    "RelativePath": "api/Appartment/{id}/calificar",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "ratingRequest",
-        "Type": "Application.Models.AppartmentModels.Request.RatingRequest",
         "IsRequired": true
       }
     ],
@@ -524,21 +524,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Web.Controllers.TenantController",
-    "Method": "AssignAppartmentToTenant",
-    "RelativePath": "api/Tenant/tenant/{tenantId}/{appartmentId}",
-    "HttpMethod": "PATCH",
+    "ContainingType": "Web.Controllers.AppartmentController",
+    "Method": "AddRating",
+    "RelativePath": "calificar",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "tenantId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "appartmentId",
-        "Type": "System.Int32",
+        "Name": "ratingRequest",
+        "Type": "Application.Models.AppartmentModels.Request.RatingRequest",
         "IsRequired": true
       }
     ],

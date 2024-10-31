@@ -40,5 +40,12 @@ namespace Infrastructure.Data
             _dbContext.Appartments.Remove(appartment);
             _dbContext.SaveChanges();
         }
+
+        public List<Rating> GetRatingsByAppartmentId(int appartmentId)
+        {
+            return _dbContext.Ratings
+                .Where(r => r.AppartmentId == appartmentId)
+                .ToList();
+        }
     }
 }

@@ -9,5 +9,4 @@ public interface IOwnerService
     OwnerResponse Create(OwnerRequest owner);
     OwnerResponse UpdateOwner(int id, OwnerRequest owner);
     OwnerResponse DeleteOwner(int id);
-    float CalculateOwnerRating(int ownerId);
 }

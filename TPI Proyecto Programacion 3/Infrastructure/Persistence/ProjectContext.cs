@@ -12,6 +12,7 @@ public class ProjectContext : DbContext
     public DbSet<Reservation> Reservations { get; set; }
     public DbSet<Building> Buildings { get; set; }
     public DbSet<Appartment> Appartments { get; set; }
+    public DbSet<Rating> Ratings { get; set; }
     public ProjectContext(DbContextOptions<ProjectContext> options) : base(options)
     {
     }
@@ -22,19 +23,19 @@ public class ProjectContext : DbContext
             .HasMany(o => o.Buildings)
             .WithOne(b => b.Owner)
             .HasForeignKey(b => b.OwnerId)
-            .OnDelete(DeleteBehavior.Cascade); 
+            .OnDelete(DeleteBehavior.Cascade);
 
         modelBuilder.Entity<Building>()
             .HasMany(b => b.Appartments)
             .WithOne(a => a.Building)
             .HasForeignKey(a => a.BuildingId)
-            .OnDelete(DeleteBehavior.Cascade); 
+            .OnDelete(DeleteBehavior.Cascade);
 
         modelBuilder.Entity<Appartment>()
             .HasOne(a => a.Tenant)
             .WithOne(t => t.Appartment)
-            .HasForeignKey<Appartment>(a => a.TenantId)
-            .OnDelete(DeleteBehavior.SetNull); 
+            .HasForeignKey<Tenant>(t => t.AppartmentId) 
+            .OnDelete(DeleteBehavior.SetNull);
 
         modelBuilder.Entity<Reservation>()
             .HasOne(r => r.Appartment)
@@ -46,8 +47,15 @@ public class ProjectContext : DbContext
             .WithMany()
             .HasForeignKey(r => r.TenantID);
 
+        modelBuilder.Entity<Rating>()
+            .HasOne(r => r.Appartment)
+            .WithMany(a => a.Ratings) 
+            .HasForeignKey(r => r.AppartmentId) 
+            .OnDelete(DeleteBehavior.Cascade); 
+
         base.OnModelCreating(modelBuilder);
     }
+
 
     public override int SaveChanges()
     {

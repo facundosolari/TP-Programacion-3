@@ -55,7 +55,7 @@ namespace Infrastructure.Services
             {
                 new Claim("sub", user.Id.ToString()),
                 new Claim("given_name", user.Name),
-                new Claim("family_name", user.Lastname)
+                new Claim("family_name", user.Lastname) 
             };
 
             // Asigna el rol basado en el tipo de usuario

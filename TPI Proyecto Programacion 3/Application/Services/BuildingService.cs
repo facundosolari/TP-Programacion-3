@@ -12,12 +12,14 @@ namespace Application.Services
         private readonly IBuildingRepository _buildingRepository;
         private readonly IAppartmentRepository _appartmentRepository;
         private readonly IOwnerRepository _ownerRepository;
+        private readonly ITenantRepository _tenantRepository;
 
-        public BuildingService(IBuildingRepository buildingRepository, IAppartmentRepository appartmentRepository, IOwnerRepository ownerRepository)
+        public BuildingService(IBuildingRepository buildingRepository, IAppartmentRepository appartmentRepository, IOwnerRepository ownerRepository, ITenantRepository tenantRepository)
         {
             _buildingRepository = buildingRepository;
             _appartmentRepository = appartmentRepository;
             _ownerRepository = ownerRepository;
+            _tenantRepository = tenantRepository;
         }
 
         public List<BuildingResponse> GetAll()
@@ -57,7 +59,10 @@ namespace Application.Services
                 throw new Exception("Error al crear nuevo edificio");
             }
 
+            owner.Buildings.Add(newBuilding);
+
             _buildingRepository.Create(newBuilding);
+            _ownerRepository.UpdateOwner(owner);
             return BuildingsProfile.ToBuildingResponse(newBuilding);
         }
 
@@ -83,6 +88,20 @@ namespace Application.Services
             if (building == null)
             {
                 throw new Exception("Edificio no encontrado");
+            }
+
+            foreach (var appartment in building.Appartments.ToList())
+            {
+                if (appartment.TenantId.HasValue) 
+                {
+                    var tenant = _tenantRepository.GetById(appartment.TenantId.Value); 
+                    if (tenant != null)
+                    {
+                        tenant.AppartmentId = null; 
+                        _tenantRepository.UpdateTenant(tenant); 
+                    }
+                }
+                _appartmentRepository.DeleteAppartment(appartment);
             }
 
             _buildingRepository.DeleteBuilding(building);

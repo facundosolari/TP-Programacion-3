@@ -108,14 +108,14 @@ namespace Web.Controllers
         }
 
 
-        [HttpPost("{id}/calificar")]
+        [HttpPost("/calificar")]
         [Authorize(Roles = "Admin,Tenant")]
-        public IActionResult AddRating(int id, [FromBody] RatingRequest ratingRequest)
+        public IActionResult AddRating(RatingRequest ratingRequest)
         {
             try
             {
-                _appartmentService.AddRating(id, ratingRequest);
-                return Ok("Departamento calificado correctamente.");
+                var result = _appartmentService.AddRating(ratingRequest);
+                return Ok(result);
             }
             catch (Exception e)
             {

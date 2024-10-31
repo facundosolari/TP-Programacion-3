@@ -62,9 +62,6 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("BuildingId");
 
-                    b.HasIndex("TenantId")
-                        .IsUnique();
-
                     b.ToTable("Appartments");
                 });
 
@@ -76,7 +73,7 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Adress")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("BackYard")
                         .HasColumnType("INTEGER");
@@ -92,13 +89,37 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Ubication")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OwnerId");
 
                     b.ToTable("Buildings");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Rating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AppartmentId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("TenantId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Value")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppartmentId");
+
+                    b.HasIndex("TenantId");
+
+                    b.ToTable("Ratings");
                 });
 
             modelBuilder.Entity("Domain.Entities.Reservation", b =>
@@ -117,7 +138,7 @@ namespace Infrastructure.Migrations
                     b.Property<int>("TenantID")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("VisitDate")
+                    b.Property<DateOnly>("VisitDate")
                         .HasColumnType("TEXT");
 
                     b.HasKey("ReservationID");
@@ -183,7 +204,7 @@ namespace Infrastructure.Migrations
                     b.Property<string>("Photo")
                         .HasColumnType("TEXT");
 
-                    b.Property<float?>("Rating")
+                    b.Property<float>("Rating")
                         .HasColumnType("REAL");
 
                     b.ToTable("Users", t =>
@@ -205,6 +226,9 @@ namespace Infrastructure.Migrations
                     b.Property<string>("Photo")
                         .HasColumnType("TEXT");
 
+                    b.HasIndex("AppartmentId")
+                        .IsUnique();
+
                     b.HasDiscriminator().HasValue("Tenant");
                 });
 
@@ -216,14 +240,7 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Tenant", "Tenant")
-                        .WithOne("Appartment")
-                        .HasForeignKey("Domain.Entities.Appartment", "TenantId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
                     b.Navigation("Building");
-
-                    b.Navigation("Tenant");
                 });
 
             modelBuilder.Entity("Domain.Entities.Building", b =>
@@ -235,6 +252,25 @@ namespace Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Owner");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Rating", b =>
+                {
+                    b.HasOne("Domain.Entities.Appartment", "Appartment")
+                        .WithMany("Ratings")
+                        .HasForeignKey("AppartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Tenant", "Tenant")
+                        .WithMany()
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Appartment");
+
+                    b.Navigation("Tenant");
                 });
 
             modelBuilder.Entity("Domain.Entities.Reservation", b =>
@@ -256,6 +292,23 @@ namespace Infrastructure.Migrations
                     b.Navigation("Tenant");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Tenant", b =>
+                {
+                    b.HasOne("Domain.Entities.Appartment", "Appartment")
+                        .WithOne("Tenant")
+                        .HasForeignKey("Domain.Entities.Tenant", "AppartmentId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Appartment");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Appartment", b =>
+                {
+                    b.Navigation("Ratings");
+
+                    b.Navigation("Tenant");
+                });
+
             modelBuilder.Entity("Domain.Entities.Building", b =>
                 {
                     b.Navigation("Appartments");
@@ -264,11 +317,6 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Entities.Owner", b =>
                 {
                     b.Navigation("Buildings");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Tenant", b =>
-                {
-                    b.Navigation("Appartment");
                 });
 #pragma warning restore 612, 618
         }

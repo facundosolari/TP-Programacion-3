@@ -1,5 +1,6 @@
 ﻿using Application.Models.AppartmentModels.Request;
 using Application.Models.AppartmentModels.Response;
+using Domain.Entities;
 
 namespace Application.Interfaces
 {
@@ -10,6 +11,6 @@ namespace Application.Interfaces
         AppartmentResponse? GetById(int id);
         AppartmentResponse UpdateAppartment(int id, AppartmentRequest appartment);
         AppartmentResponse DeleteAppartment(int id);
-        bool AddRating(int id, RatingRequest ratingRequest);
+        bool AddRating(RatingRequest ratingRequest);
     }
 }

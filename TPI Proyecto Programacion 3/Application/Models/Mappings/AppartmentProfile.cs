@@ -41,9 +41,22 @@ namespace Application.Models.Mappings
                 Number = entity.Number,
                 Bathrooms = entity.Bathrooms,
                 Rooms = entity.Rooms,
+                Pictures = entity.Pictures,
                 Description = entity.Description,
                 Price = entity.Price,
                 Rating = entity.Rating,
+            };
+        }
+
+        public static Rating ToRatingEntity(RatingRequest ratingRequest, Appartment appartment, Tenant tenant)
+        {
+            return new Rating
+            {
+                Value = ratingRequest.Value,
+                AppartmentId = ratingRequest.AppartmentId,
+                TenantId = ratingRequest.TenantId,
+                Tenant = tenant,
+                Appartment = appartment,
             };
         }
     }

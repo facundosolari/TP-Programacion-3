@@ -3,6 +3,7 @@ using Application.Models.BuildingModels.Response;
 using Application.Models.BuildingModels.Request;
 using Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Domain.Entities;
 
 namespace Web.Controllers
 {

@@ -9,4 +9,5 @@ public interface IAppartmentRepository
     Appartment? GetById(int id);
     void UpdateAppartment(Appartment appartment);
     void DeleteAppartment(Appartment appartment);
+    List<Rating> GetRatingsByAppartmentId(int appartmentId);
 }

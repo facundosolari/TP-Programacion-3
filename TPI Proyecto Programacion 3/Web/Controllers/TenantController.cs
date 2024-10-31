@@ -95,7 +95,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPatch("tenant/{tenantId}/{appartmentId}")]
+        [HttpPatch("/{tenantId}/{appartmentId}")]
         [Authorize(Roles = "Admin,Tenant")]
         public IActionResult AssignAppartmentToTenant([FromRoute] int tenantId, [FromRoute] int appartmentId)
         {

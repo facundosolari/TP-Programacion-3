@@ -27,7 +27,6 @@ public static class BuildingsProfile
             Adress = response.Adress,
             Garage = response.Garage,
             BackYard = response.BackYard,
-            Rating = response.Rating,
         };
     }
 
