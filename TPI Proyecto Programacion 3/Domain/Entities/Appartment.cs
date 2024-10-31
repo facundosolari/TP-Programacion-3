@@ -30,11 +30,5 @@ namespace Domain.Entities
         public bool IsAvailable { get; set; } = true;
         public List<Rating> Ratings { get; set; } = new List<Rating>(); 
         public float Rating { get; set; }
-
-        public bool AddRating(Rating rating)
-        {
-            Ratings.Add(rating);
-            return true;
-        }
     }
 }

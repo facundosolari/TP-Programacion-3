@@ -114,8 +114,8 @@ namespace Web.Controllers
         {
             try
             {
-                var result = _appartmentService.AddRating(ratingRequest);
-                return Ok(result);
+                _appartmentService.AddRating(ratingRequest);
+                return Ok("Calificado con éxito");
             }
             catch (Exception e)
             {

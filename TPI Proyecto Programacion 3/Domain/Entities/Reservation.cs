@@ -18,6 +18,5 @@ namespace Domain.Entities
         public Tenant Tenant { get; set; }
         [Required]
         public DateOnly VisitDate { get; set; }
-        public string Status { get; set; } = "Reserved"; // Estado por defecto es "Reservado"
     }
 }

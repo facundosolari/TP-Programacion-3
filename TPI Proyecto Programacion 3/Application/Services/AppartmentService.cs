@@ -125,7 +125,9 @@ namespace Application.Services
 
             var rating = AppartmentProfile.ToRatingEntity(ratingRequest, appartment, tenant);
 
-            appartment.AddRating(rating);
+            if (ratingRequest.Value < 1 || ratingRequest.Value > 5) throw new Exception("Rating invalido");
+            
+            appartment.Ratings.Add(rating);
             _appartmentRepository.UpdateAppartment(appartment);
 
 

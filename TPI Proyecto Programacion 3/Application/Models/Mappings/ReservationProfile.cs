@@ -12,7 +12,6 @@ namespace Contract.Mappings
                 AppartmentID = id,
                 TenantID = request.TenantID,
                 VisitDate = request.VisitDate,
-                Status = "Reserved" 
             };
         }
 
@@ -24,7 +23,6 @@ namespace Contract.Mappings
                 AppartmentID = reservation.AppartmentID,
                 TenantID = reservation.TenantID,
                 VisitDate = reservation.VisitDate,
-                Status = reservation.Status
             };
         }
     }
