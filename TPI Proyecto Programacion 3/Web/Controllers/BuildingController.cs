@@ -33,7 +33,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getById/{id}")]
         public IActionResult GetBuildingById([FromRoute] int id)
         {
             try
@@ -48,7 +48,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         [Authorize(Roles = "Admin,Owner")]
         public IActionResult CreateBuilding([FromBody] BuildingRequest building)
         {
@@ -64,7 +64,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         [Authorize(Roles = "Admin,Owner")]
         public IActionResult UpdateBuilding([FromRoute] int id, [FromBody] BuildingRequest building)
         {
@@ -80,7 +80,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         [Authorize(Roles = "Admin,Owner")]
         public IActionResult DeleteBuilding([FromRoute] int id)
         {

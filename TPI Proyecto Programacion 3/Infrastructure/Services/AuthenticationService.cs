@@ -54,8 +54,7 @@ namespace Infrastructure.Services
             var claimsForToken = new List<Claim>
             {
                 new Claim("sub", user.Id.ToString()),
-                new Claim("given_name", user.Name),
-                new Claim("family_name", user.Lastname) 
+                new Claim("username", user.Username),
             };
 
             // Asigna el rol basado en el tipo de usuario

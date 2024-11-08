@@ -32,7 +32,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getById/{id}")]
         [Authorize]
         public IActionResult GetTenantById([FromRoute] int id)
         {
@@ -48,7 +48,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public IActionResult CreateTenant([FromBody] TenantRequest tenant)
         {
             try
@@ -63,7 +63,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         [Authorize(Roles = "Admin,Tenant")]
         public IActionResult UpdateTenant([FromRoute] int id, [FromBody] TenantRequest tenant)
         {
@@ -79,7 +79,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         [Authorize(Roles = "Admin,Tenant")]
         public IActionResult DeleteTenant([FromRoute] int id)
         {
@@ -95,7 +95,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPatch("/{tenantId}/{appartmentId}")]
+        [HttpPatch("assignAppartment/{tenantId}/{appartmentId}")]
         [Authorize(Roles = "Admin,Tenant")]
         public IActionResult AssignAppartmentToTenant([FromRoute] int tenantId, [FromRoute] int appartmentId)
         {

@@ -32,7 +32,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getById/{id}")]
         [Authorize(Roles = "Admin")]
         public IActionResult GetAdminById([FromRoute] int id)
         {
@@ -48,7 +48,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         [Authorize(Roles = "Admin")]
         public IActionResult CreateAdmin([FromBody] AdminRequest admin)
         {
@@ -64,7 +64,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         [Authorize(Roles = "Admin")]
         public IActionResult UpdateAdmin([FromRoute] int id, [FromBody] AdminRequest admin)
         {
@@ -80,7 +80,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         [Authorize(Roles = "Admin")]
         public IActionResult DeleteAdmin([FromRoute] int id)
         {

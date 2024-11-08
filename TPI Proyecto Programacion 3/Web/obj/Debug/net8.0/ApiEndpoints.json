@@ -1,26 +1,5 @@
 [
   {
-    "ContainingType": "Web.Controllers.TenantController",
-    "Method": "AssignAppartmentToTenant",
-    "RelativePath": "{tenantId}/{appartmentId}",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "tenantId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "appartmentId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Web.Controllers.AdminController",
     "Method": "GetAllAdmin",
     "RelativePath": "api/Admin",
@@ -43,7 +22,7 @@
   {
     "ContainingType": "Web.Controllers.AdminController",
     "Method": "CreateAdmin",
-    "RelativePath": "api/Admin",
+    "RelativePath": "api/Admin/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -58,8 +37,24 @@
   },
   {
     "ContainingType": "Web.Controllers.AdminController",
+    "Method": "DeleteAdmin",
+    "RelativePath": "api/Admin/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.AdminController",
     "Method": "GetAdminById",
-    "RelativePath": "api/Admin/{id}",
+    "RelativePath": "api/Admin/getById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -75,7 +70,7 @@
   {
     "ContainingType": "Web.Controllers.AdminController",
     "Method": "UpdateAdmin",
-    "RelativePath": "api/Admin/{id}",
+    "RelativePath": "api/Admin/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -88,22 +83,6 @@
       {
         "Name": "admin",
         "Type": "Application.Models.AdminModels.AdminRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.Controllers.AdminController",
-    "Method": "DeleteAdmin",
-    "RelativePath": "api/Admin/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -132,7 +111,7 @@
   {
     "ContainingType": "Web.Controllers.AppartmentController",
     "Method": "CreateAppartment",
-    "RelativePath": "api/Appartment",
+    "RelativePath": "api/Appartment/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -147,8 +126,24 @@
   },
   {
     "ContainingType": "Web.Controllers.AppartmentController",
+    "Method": "DeleteAppartment",
+    "RelativePath": "api/Appartment/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.AppartmentController",
     "Method": "GetAppartmentById",
-    "RelativePath": "api/Appartment/{id}",
+    "RelativePath": "api/Appartment/getById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -164,7 +159,7 @@
   {
     "ContainingType": "Web.Controllers.AppartmentController",
     "Method": "UpdateAppartment",
-    "RelativePath": "api/Appartment/{id}",
+    "RelativePath": "api/Appartment/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -177,22 +172,6 @@
       {
         "Name": "appartment",
         "Type": "Application.Models.AppartmentModels.Request.AppartmentRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.Controllers.AppartmentController",
-    "Method": "DeleteAppartment",
-    "RelativePath": "api/Appartment/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -237,7 +216,7 @@
   {
     "ContainingType": "Web.Controllers.BuildingController",
     "Method": "CreateBuilding",
-    "RelativePath": "api/Building",
+    "RelativePath": "api/Building/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -252,8 +231,24 @@
   },
   {
     "ContainingType": "Web.Controllers.BuildingController",
+    "Method": "DeleteBuilding",
+    "RelativePath": "api/Building/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.BuildingController",
     "Method": "GetBuildingById",
-    "RelativePath": "api/Building/{id}",
+    "RelativePath": "api/Building/getById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -269,7 +264,7 @@
   {
     "ContainingType": "Web.Controllers.BuildingController",
     "Method": "UpdateBuilding",
-    "RelativePath": "api/Building/{id}",
+    "RelativePath": "api/Building/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -282,22 +277,6 @@
       {
         "Name": "building",
         "Type": "Application.Models.BuildingModels.Request.BuildingRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.Controllers.BuildingController",
-    "Method": "DeleteBuilding",
-    "RelativePath": "api/Building/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -326,7 +305,7 @@
   {
     "ContainingType": "Web.Controllers.OwnerController",
     "Method": "CreateOwner",
-    "RelativePath": "api/Owner",
+    "RelativePath": "api/Owner/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -341,8 +320,24 @@
   },
   {
     "ContainingType": "Web.Controllers.OwnerController",
+    "Method": "DeleteOwner",
+    "RelativePath": "api/Owner/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.OwnerController",
     "Method": "GetOwnerById",
-    "RelativePath": "api/Owner/{id}",
+    "RelativePath": "api/Owner/getById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -358,7 +353,7 @@
   {
     "ContainingType": "Web.Controllers.OwnerController",
     "Method": "UpdateOwner",
-    "RelativePath": "api/Owner/{id}",
+    "RelativePath": "api/Owner/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -371,22 +366,6 @@
       {
         "Name": "owner",
         "Type": "Application.Models.OwnerModels.OwnerRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.Controllers.OwnerController",
-    "Method": "DeleteOwner",
-    "RelativePath": "api/Owner/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -456,8 +435,29 @@
   },
   {
     "ContainingType": "Web.Controllers.TenantController",
+    "Method": "AssignAppartmentToTenant",
+    "RelativePath": "api/Tenant/assignAppartment/{tenantId}/{appartmentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "appartmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.TenantController",
     "Method": "CreateTenant",
-    "RelativePath": "api/Tenant",
+    "RelativePath": "api/Tenant/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -472,8 +472,24 @@
   },
   {
     "ContainingType": "Web.Controllers.TenantController",
+    "Method": "DeleteTenant",
+    "RelativePath": "api/Tenant/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.TenantController",
     "Method": "GetTenantById",
-    "RelativePath": "api/Tenant/{id}",
+    "RelativePath": "api/Tenant/getById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -489,7 +505,7 @@
   {
     "ContainingType": "Web.Controllers.TenantController",
     "Method": "UpdateTenant",
-    "RelativePath": "api/Tenant/{id}",
+    "RelativePath": "api/Tenant/update/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -502,22 +518,6 @@
       {
         "Name": "tenant",
         "Type": "Application.Models.TenantModels.TenantRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.Controllers.TenantController",
-    "Method": "DeleteTenant",
-    "RelativePath": "api/Tenant/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

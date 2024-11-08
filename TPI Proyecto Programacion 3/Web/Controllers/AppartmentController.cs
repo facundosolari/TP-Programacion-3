@@ -33,7 +33,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getById/{id}")]
         public IActionResult GetAppartmentById([FromRoute] int id)
         {
             var response = new AppartmentResponse();
@@ -56,7 +56,7 @@ namespace Web.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("create")]
         [Authorize(Roles = "Admin,Owner")]
         public IActionResult CreateAppartment([FromBody] AppartmentRequest appartment)
         {
@@ -74,7 +74,7 @@ namespace Web.Controllers
 
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         [Authorize(Roles = "Admin,Owner")]
         public ActionResult UpdateAppartment([FromRoute] int id, [FromBody] AppartmentRequest appartment)
         {
@@ -91,7 +91,7 @@ namespace Web.Controllers
 
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         [Authorize(Roles = "Admin,Owner")]
         public ActionResult DeleteAppartment([FromRoute] int id)
         {

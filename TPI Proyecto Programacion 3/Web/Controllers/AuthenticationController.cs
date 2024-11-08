@@ -22,7 +22,7 @@ namespace Web.Controllers
             {
                 string token = _customAuthenticationService.Authenticate(credentials);
 
-                return Ok(token);
+                return Ok(token); // ToDo: implementar una userResponse para guardar los datos en el localstorage del front
             }
             catch (Exception e)
             {

@@ -32,7 +32,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getById/{id}")]
         [Authorize]
         public IActionResult GetOwnerById([FromRoute] int id)
         {
@@ -48,7 +48,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public IActionResult CreateOwner([FromBody] OwnerRequest owner)
         {
             try
@@ -63,7 +63,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         [Authorize(Roles = "Admin,Owner")]
         public IActionResult UpdateOwner([FromRoute] int id, [FromBody] OwnerRequest owner)
         {
@@ -79,7 +79,7 @@ namespace Web.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         [Authorize(Roles = "Admin,Owner")]
         public IActionResult DeleteOwner([FromRoute] int id)
         {
