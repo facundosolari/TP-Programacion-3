@@ -4,14 +4,16 @@ namespace Application.Models.TenantModels
 {
     public class TenantResponse
     {
+        public int userId { get; set; }
         [Required]
-        public string Username { get; set; }
+        public string username { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string email { get; set; }
         [Required]
-        public string Lastname { get; set; }
-        [Required]
-        public string Email { get; set; }
-        public string Photo { get; set; }
+        public string firstName { get; set; }
+        [Required] 
+        public string lastName { get; set; }
+        public string? photo { get; set; }
+        public string role { get; set; } = "Tenant";
     }
 }

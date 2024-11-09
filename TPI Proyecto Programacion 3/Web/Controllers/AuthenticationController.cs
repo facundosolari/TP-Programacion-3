@@ -16,13 +16,13 @@ namespace Web.Controllers
         }
 
         [HttpPost("authenticate")]
-        public IActionResult Authenticate([FromBody] CredentialsRequest credentials)
+        public ActionResult Authenticate([FromBody] CredentialsRequest credentials)
         {
             try
             {
-                string token = _customAuthenticationService.Authenticate(credentials);
+                var response = _customAuthenticationService.Authenticate(credentials);
 
-                return Ok(token); // ToDo: implementar una userResponse para guardar los datos en el localstorage del front
+                return Ok(response); 
             }
             catch (Exception e)
             {

@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         builder =>
         {
-            builder.WithOrigins("http://localhost:5173")
+            builder.AllowAnyOrigin()
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
@@ -95,6 +95,7 @@ builder.Services.AddAuthentication("Bearer")
 
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 // tipo de vida, singleton: existe una única vez para toda la app
 // scoped: se usa una vez por instancia
 builder.Services.AddScoped<IOwnerService, OwnerService>();

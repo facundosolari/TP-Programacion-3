@@ -22,11 +22,13 @@ public static class TenantProfile
     {
         return new TenantResponse
         {
-            Username = entity.Username,
-            Name = entity.Name,
-            Lastname = entity.Lastname,
-            Email = entity.Email,
-            Photo = entity.Photo ?? "urlDeFotoPredeterminada.com",
+            userId = entity.Id,
+            username = entity.Username,
+            email = entity.Email,
+            firstName = entity.Name,
+            lastName = entity.Lastname,
+            photo = entity.Photo ?? "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png",
+            role = "Tenant",
         };
     }
 

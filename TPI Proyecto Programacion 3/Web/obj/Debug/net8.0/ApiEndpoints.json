@@ -524,6 +524,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Web.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/getSelfUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.AppartmentController",
     "Method": "AddRating",
     "RelativePath": "calificar",
