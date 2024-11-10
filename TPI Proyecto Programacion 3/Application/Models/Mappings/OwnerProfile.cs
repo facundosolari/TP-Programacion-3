@@ -14,7 +14,7 @@ public static class OwnerProfile
             Name = request.Name,
             Lastname = request.Lastname,
             Email = request.Email,
-            Photo = request.Photo,
+            Photo = request.Photo ?? "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png",
         };
     }
 
@@ -39,6 +39,6 @@ public static class OwnerProfile
         owner.Name = request.Name;
         owner.Lastname = request.Lastname;
         owner.Email = request.Email;
-        owner.Photo = request.Photo;
+        owner.Photo = request.Photo ?? "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png";
     }
 }

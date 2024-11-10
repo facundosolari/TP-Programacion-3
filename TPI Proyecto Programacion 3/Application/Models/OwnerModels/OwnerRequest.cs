@@ -14,7 +14,6 @@ namespace Application.Models.OwnerModels
         public string Lastname { get; set; }
         [Required]
         public string Email { get; set; }
-        [Required]
-        public string Photo { get; set; } 
+        public string? Photo { get; set; } 
     }
 }

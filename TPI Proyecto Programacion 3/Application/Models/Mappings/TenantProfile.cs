@@ -14,7 +14,7 @@ public static class TenantProfile
             Name = request.Name,
             Lastname = request.Lastname,
             Email = request.Email,
-            Photo = request.Photo,
+            Photo = request.Photo ?? "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png",
         };
     }
 
@@ -39,6 +39,6 @@ public static class TenantProfile
         tenant.Name = request.Name;
         tenant.Lastname = request.Lastname;
         tenant.Email = request.Email;
-        tenant.Photo = request.Photo;
+        tenant.Photo = request.Photo ?? "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png";
     }
 }

@@ -14,6 +14,7 @@ public static class AdminProfile
             Name = request.Name,
             Lastname = request.Lastname,
             Email = request.Email,
+            Photo = "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png"
         };
     }
 
@@ -38,6 +39,6 @@ public static class AdminProfile
         admin.Name = request.Name;
         admin.Lastname = request.Lastname;
         admin.Email = request.Email;
-
+        admin.Photo = "https://w7.pngwing.com/pngs/867/694/png-transparent-user-profile-default-computer-icons-network-video-recorder-avatar-cartoon-maker-blue-text-logo.png";
     }
 }
