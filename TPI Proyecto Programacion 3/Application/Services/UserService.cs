@@ -26,19 +26,46 @@ namespace Application.Services
             var admin = _adminRepository.GetById(userId);
             if (admin != null)
             {
-                return AdminProfile.ToAdminResponse(admin);
+                return new
+                {
+                    userId = admin.Id,
+                    username = admin.Username,
+                    email = admin.Email,
+                    firstName = admin.Name,
+                    lastName = admin.Lastname,
+                    photo = admin.Photo,
+                    role = "Tenant"
+                };
             }
 
             var owner = _ownerRepository.GetById(userId);
             if (owner != null)
             {
-                return OwnerProfile.ToOwnerResponse(owner);
+                return new
+                {
+                    userId = owner.Id,
+                    username = owner.Username,
+                    email = owner.Email,
+                    firstName = owner.Name,
+                    lastName = owner.Lastname,
+                    photo = owner.Photo,
+                    role = "Tenant"
+                };
             }
 
             var tenant = _tenantRepository.GetById(userId);
             if (tenant != null)
             {
-                return TenantProfile.ToTenantResponse(tenant);
+                return new
+                {
+                    userId = tenant.Id,
+                    username = tenant.Username,
+                    email = tenant.Email,
+                    firstName = tenant.Name,
+                    lastName = tenant.Lastname,
+                    photo = tenant.Photo,
+                    role = "Tenant"
+                };
             }
 
             return null;
