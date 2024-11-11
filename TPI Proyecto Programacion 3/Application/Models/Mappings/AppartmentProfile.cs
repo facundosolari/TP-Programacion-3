@@ -46,7 +46,8 @@ namespace Application.Models.Mappings
                 Description = entity.Description,
                 Price = entity.Price,
                 Rating = entity.Rating,
-                BuildingId = entity.BuildingId
+                BuildingId = entity.BuildingId,
+                isAvailable= entity.IsAvailable
             };
         }
 

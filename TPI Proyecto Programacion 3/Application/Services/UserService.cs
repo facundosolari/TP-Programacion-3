@@ -34,7 +34,7 @@ namespace Application.Services
                     firstName = admin.Name,
                     lastName = admin.Lastname,
                     photo = admin.Photo,
-                    role = "Tenant"
+                    role = "Admin"
                 };
             }
 

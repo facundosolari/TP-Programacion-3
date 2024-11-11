@@ -20,5 +20,7 @@ namespace Application.Models.AppartmentModels.Response
         [Required]
         public float Rating { get; set; }
         public int BuildingId { get; set; }
+
+        public bool isAvailable { get; set; }
     }
 }
