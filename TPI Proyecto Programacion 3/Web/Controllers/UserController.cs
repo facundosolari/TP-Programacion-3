@@ -16,11 +16,18 @@ namespace Web.Controllers
             _userService = userService;
         }
 
-        [HttpGet("getSelfUser/{id}")]
-        public IActionResult GetUser([FromRoute] int id)
+        [HttpGet("getSelfUser")]
+        public IActionResult GetUser()
         {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userIdClaim == null)
+            {
+                return BadRequest("No se pudo obtener el ID del usuario desde el token.");
+            }
 
-            var userData = _userService.GetSelfUser(id);
+            var userId = (int.Parse(userIdClaim));
+
+            var userData = _userService.GetSelfUser(userId);
 
             if (userData == null)
             {

@@ -49,7 +49,7 @@ namespace Application.Services
                     firstName = owner.Name,
                     lastName = owner.Lastname,
                     photo = owner.Photo,
-                    role = "Tenant"
+                    role = "Owner"
                 };
             }
 

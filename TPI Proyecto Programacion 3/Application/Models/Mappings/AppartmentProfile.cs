@@ -37,6 +37,7 @@ namespace Application.Models.Mappings
         {
             return new AppartmentResponse
             {
+                Id = entity.Id,
                 Floor = entity.Floor,
                 Number = entity.Number,
                 Bathrooms = entity.Bathrooms,
@@ -45,6 +46,7 @@ namespace Application.Models.Mappings
                 Description = entity.Description,
                 Price = entity.Price,
                 Rating = entity.Rating,
+                BuildingId = entity.BuildingId
             };
         }
 

@@ -4,6 +4,7 @@ namespace Application.Models.AppartmentModels.Response
 {
     public class AppartmentResponse
     {
+        public int Id { get; set; }
         [Required]
         public int Floor { get; set; }
         [Required]
@@ -18,5 +19,6 @@ namespace Application.Models.AppartmentModels.Response
         public float Price { get; set; }
         [Required]
         public float Rating { get; set; }
+        public int BuildingId { get; set; }
     }
 }

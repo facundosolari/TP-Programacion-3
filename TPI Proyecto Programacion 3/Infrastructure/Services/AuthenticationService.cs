@@ -51,12 +51,13 @@ namespace Infrastructure.Services
             var securityPassword = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_options.SecretForKey));
             var credentials = new SigningCredentials(securityPassword, SecurityAlgorithms.HmacSha256);
 
+            
             var claimsForToken = new List<Claim>
             {
-                new Claim("sub", user.Id.ToString()),
                 new Claim("username", user.Username),
             };
 
+            claimsForToken.Add(new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()));
             // Asigna el rol basado en el tipo de usuario
             if (user is Admin) claimsForToken.Add(new Claim(ClaimTypes.Role, "Admin"));
             else if (user is Owner) claimsForToken.Add(new Claim(ClaimTypes.Role, "Owner"));

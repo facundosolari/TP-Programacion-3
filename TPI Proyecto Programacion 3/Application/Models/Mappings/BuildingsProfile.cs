@@ -11,7 +11,7 @@ public static class BuildingsProfile
         return new Building
         {
             Ubication = request.Ubication,
-            Adress = request.Adress,
+            Address = request.Address,
             Garage = request.Garage,
             BackYard = request.BackYard,
             OwnerId = request.OwnerId,
@@ -24,16 +24,18 @@ public static class BuildingsProfile
         return new BuildingResponse
         {
             Ubication = response.Ubication,
-            Adress = response.Adress,
+            Address = response.Address,
             Garage = response.Garage,
             BackYard = response.BackYard,
+            Id = response.Id,
+            OwnerId = response.OwnerId,
         };
     }
 
     public static void ToBuildingUpdate(Building building, BuildingRequest request)
     {
         building.Ubication = request.Ubication;
-        building.Adress = request.Adress;
+        building.Address = request.Address;
         building.Garage = request.Garage;
         building.BackYard = request.BackYard;
     }

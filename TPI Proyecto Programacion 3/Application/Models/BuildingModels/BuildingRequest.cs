@@ -7,7 +7,7 @@ namespace Application.Models.BuildingModels.Request
         [Required]
         public string Ubication { get; set; }
         [Required]
-        public string Adress { get; set; }
+        public string Address { get; set; }
         [Required]
         public bool Garage { get; set; }
         [Required]

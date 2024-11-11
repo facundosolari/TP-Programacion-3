@@ -13,7 +13,7 @@ namespace Domain.Entities
         public string Ubication { get; set; }
         [Required]
         [Column(TypeName = "nvarchar(50)")]
-        public string Adress { get; set; }
+        public string Address { get; set; }
         [Required]
         public bool Garage { get; set; }
         [Required]
